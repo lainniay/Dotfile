@@ -1,0 +1,16 @@
+# [opener]
+# edit = [{ run = 'nvim "$@"', block = true }]
+#
+# [open]
+# rules = [
+#   { url = "*.json", use = "edit" },
+#   { name = "*.toml", use = "edit" },
+#   { name = "*.md", use = "edit" },
+#   { name = "*.lua", use = "edit" },
+# ]
+
+
+[mgr]
+ratio = [1, 4, 3]
+show_symlink = false
+scrolloff = 5

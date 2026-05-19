@@ -1,0 +1,7 @@
+[user]
+	name = lainniay
+	email = miku2006lain@outlook.com
+[init]
+	defaultBranch = main
+[http]
+	postBuffer = 524288000

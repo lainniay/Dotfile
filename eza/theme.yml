@@ -1,0 +1,101 @@
+colourful: true
+
+filekinds:
+  normal: {foreground: "#cdd6f4", is_bold: false}
+  directory: {foreground: "#b4befe", is_bold: false}
+  symlink: {foreground: "#89b4fa", is_bold: false}
+  pipe: {foreground: "#bac2de", is_bold: false}
+  block_device: {foreground: "#eba0ac", is_bold: false}
+  char_device: {foreground: "#eba0ac", is_bold: false}
+  socket: {foreground: "#bac2de", is_bold: false}
+  special: {foreground: "#cba6f7", is_bold: false}
+  executable: {foreground: "#a6e3a1", is_bold: false}
+  mount_point: {foreground: "#94e2d5", is_bold: false}
+
+perms:
+  user_read: {foreground: "#f38ba8", is_bold: false}
+  user_write: {foreground: "#f9e2af", is_bold: false}
+  user_execute_file: {foreground: "#a6e3a1", is_bold: false}
+  user_execute_other: {foreground: "#a6e3a1", is_bold: false}
+  group_read: {foreground: "#f38ba8", is_bold: false}
+  group_write: {foreground: "#f9e2af", is_bold: false}
+  group_execute: {foreground: "#a6e3a1", is_bold: false}
+  other_read: {foreground: "#f38ba8", is_bold: false}
+  other_write: {foreground: "#f9e2af", is_bold: false}
+  other_execute: {foreground: "#a6e3a1", is_bold: false}
+  special_user_file: {foreground: "#cba6f7", is_bold: false}
+  special_other: {foreground: "#7f849c", is_bold: false}
+  attribute: {foreground: "#9399b2", is_bold: false}
+
+size:
+  major: {foreground: "#a6adc8", is_bold: false}
+  minor: {foreground: "#89dceb", is_bold: false}
+  number_byte: {foreground: "#bac2de", is_bold: false}
+  number_kilo: {foreground: "#a6adc8", is_bold: false}
+  number_mega: {foreground: "#89b4fa", is_bold: false}
+  number_giga: {foreground: "#cba6f7", is_bold: false}
+  number_huge: {foreground: "#cba6f7", is_bold: false}
+  unit_byte: {foreground: "#a6adc8", is_bold: false}
+  unit_kilo: {foreground: "#89dceb", is_bold: false}
+  unit_mega: {foreground: "#cba6f7", is_bold: false}
+  unit_giga: {foreground: "#cba6f7", is_bold: false}
+  unit_huge: {foreground: "#94e2d5", is_bold: false}
+
+users:
+  user_you: {foreground: "#cdd6f4", is_bold: false}
+  user_root: {foreground: "#f38ba8", is_bold: false}
+  user_other: {foreground: "#eba0ac", is_bold: false}
+  group_yours: {foreground: "#a6adc8", is_bold: false}
+  group_other: {foreground: "#9399b2", is_bold: false}
+  group_root: {foreground: "#f38ba8", is_bold: false}
+
+links:
+  normal: {foreground: "#89b4fa", is_bold: false}
+  multi_link_file: {foreground: "#89b4fa", is_bold: false}
+
+git:
+  new: {foreground: "#a6e3a1", is_bold: false}
+  modified: {foreground: "#f9e2af", is_bold: false}
+  deleted: {foreground: "#eba0ac", is_bold: false}
+  renamed: {foreground: "#94e2d5", is_bold: false}
+  typechange: {foreground: "#f5c2e7", is_bold: false}
+  ignored: {foreground: "#7f849c", is_bold: false}
+  conflicted: {foreground: "#fab387", is_bold: false}
+
+git_repo:
+  branch_main: {foreground: "#a6adc8", is_bold: false}
+  branch_other: {foreground: "#cba6f7", is_bold: false}
+  git_clean: {foreground: "#a6e3a1", is_bold: false}
+  git_dirty: {foreground: "#eba0ac", is_bold: false}
+
+security_context:
+  colon: {foreground: "#6c7086", is_bold: false}
+  user: {foreground: "#7f849c", is_bold: false}
+  role: {foreground: "#cba6f7", is_bold: false}
+  typ: {foreground: "#585b70", is_bold: false}
+  range: {foreground: "#cba6f7", is_bold: false}
+
+file_type:
+  image: {foreground: "#f9e2af", is_bold: false}
+  video: {foreground: "#f38ba8", is_bold: false}
+  music: {foreground: "#a6e3a1", is_bold: false}
+  lossless: {foreground: "#94e2d5", is_bold: false}
+  crypto: {foreground: "#7f849c", is_bold: false}
+  document: {foreground: "#cdd6f4", is_bold: false}
+  compressed: {foreground: "#f5c2e7", is_bold: false}
+  temp: {foreground: "#eba0ac", is_bold: false}
+  compiled: {foreground: "#74c7ec", is_bold: false}
+  source: {foreground: "#89b4fa", is_bold: false}
+
+punctuation: {foreground: "#6c7086", is_bold: false}
+date: {foreground: "#f9e2af", is_bold: false}
+inode: {foreground: "#a6adc8", is_bold: false}
+blocks: {foreground: "#6c7086", is_bold: false}
+header: {foreground: "#cdd6f4", is_bold: false}
+octal: {foreground: "#94e2d5", is_bold: false}
+flags: {foreground: "#cba6f7", is_bold: false}
+
+symlink_path: {foreground: "#89dceb", is_bold: false}
+control_char: {foreground: "#74c7ec", is_bold: false}
+broken_symlink: {foreground: "#f38ba8", is_bold: false}
+broken_path_overlay: {foreground: "#585b70", is_bold: false}

@@ -1,0 +1,23 @@
+theme = Catppuccin Mocha
+background = #000000
+
+macos-titlebar-style = hidden
+macos-window-buttons = hidden
+macos-titlebar-proxy-icon=hidden
+
+font-family = Monaspace Xenon
+# font-family-italic = Victor Mono
+# font-family-bold-italic = Victor Mono
+font-family = Symbols Nerd Font
+font-family = LXGW WenKai Mono
+font-feature = calt, ss01, ss02, ss03, ss04, ss05, ss06, ss07, ss08, ss09, ss10, liga
+font-size = 20
+ 
+clipboard-write = allow 
+clipboard-read = allow
+
+adjust-cursor-thickness = 2
+macos-option-as-alt = true 
+mouse-hide-while-typing = true
+
+
