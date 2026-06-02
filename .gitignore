@@ -67,3 +67,6 @@ mole/*.log
 .zcomp*
 .zprofile
 zsh/zim/
+
+# --- Xmake --- 
+xmake/.xmake

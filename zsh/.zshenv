@@ -15,6 +15,7 @@ export PATH="/opt/homebrew/bin:$PATH"
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSTALL_CLEANUP=0
 export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_UPDATE_REPORT_NEW=1
 
 # llvm 
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
@@ -51,6 +52,9 @@ export XMAKE_GLOBALDIR="$XDG_CONFIG_HOME/xmake"
 
 # Codex
 export CODEX_HOME="$XDG_CONFIG_HOME/codex"
+
+# Claude 
+export CLAUDE_CONFIG_DIR="$XDG_CONFIG_HOME/claude"
 
 # Matplotlib
 export MPLCONFIGDIR="$XDG_CONFIG_HOME/matplotlib"

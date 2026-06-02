@@ -1,0 +1,1007 @@
+nvim 
+nvim 
+nvim 
+nvim 
+nvim 
+nvim 
+nvim 
+neo 
+neo 
+neo 
+neo 
+cd .config
+opencode 
+exit
+exit
+z
+ssh archLain
+35;72;14M35;70;15M35;67;17M35;65;17M35;64;18M35;63;19M35;62;19M35;61;19M35;61;20M35;60;20M35;59;21M
+ssh archLain
+ssh archLain
+neo 
+neo 
+neo "$(zoxide query ba)"
+z ba
+opencode 
+ssh archLain
+ssh archLain
+scp Downloads/Lab6.tar.gz archLain: 
+z
+l
+l
+l
+ssh archLain
+uv run agents/zjc/v3
+uv run agents/zjc/v3/agent.py
+m
+cd agents/zjc/v3
+uv run ma
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent.py
+l
+uv run agent.py
+OA
+uv run agent.py
+uv run agent.py
+ssh archLain
+ssh archLain
+ssh archLain
+ssh archLain
+ssh archLain
+xmake run 
+cd 
+cd Documents
+l
+cd CppWebServer
+ls
+l
+opencode 
+z docu
+l
+cd CppWebServer
+l
+opencode 
+z
+z web
+ls
+z web 
+l
+neo . 
+opencode 
+ls
+cd ..
+zip WebServer
+l
+tldr zip 
+zip -r WebServer
+cd WebServer
+opencode 
+xmake 
+xmake 
+xmake 
+xmake run 
+dd 
+dd --help
+man dd 
+opencode 
+l --tree
+cat x.html
+l
+cd src
+l
+rm http
+rm -rf http
+opencode 
+cd .. 
+opencode 
+l
+rm x.html
+l --tree
+l
+cd src
+l
+cd webserver
+l
+l
+cat class_traits.hpp
+l
+cat http.hpp
+neo .
+xmake run 
+xmake run 
+xmake run 
+z ba
+neo .
+rm ~/.local/state/nvim/lsp.log
+dust ~/.local/state/nvim
+dust ~/.cache
+dust ~/Code
+opencode 
+btop 
+ssh archLain
+exit
+time seq 10 | xargs -n1 -P10 -I{} curl -s http://localhost:8080/sleep > /dev/null
+time seq 10 | xargs -n1 -P10 -I{} curl -s http://localhost:8080/slow > /dev/null
+seq 10 | xargs -I{} -P10 curl -s \\
+  -w "request {}: code=%{http_code}, time=%{time_total}s\n" \\
+  -o /dev/null \\
+  http://localhost:8080/slow
+brew update 
+seq 10 | xargs -I{} -P10 curl -s \\
+  -w "request {}: code=%{http_code}, time=%{time_total}s\n" \\
+  -o /dev/null \\
+  http://localhost:8080/slow
+brew upgrade 
+ssh archLain
+exit
+ssh archLain
+exit
+cd 
+mkdir .config/obsidian
+cd .config/obsidian
+cp ~/Note/Operation\ System/.obsidian . 
+cp -r ~/Note/Operation\ System/.obsidian . 
+l
+cp .obsidian/* . 
+cp -r .obsidian/* . 
+l
+rm .obsidian
+rm -rf .obsidian
+ls
+yy 
+z oper
+l
+z oper
+l
+cd 
+cd Note/Computer\ System\ Base
+opencode 
+open workspace/U45_1/out.jpg
+open workspace/U45_1/out.jpg
+open workspace/U45_1/out.jpg
+open workspace/U45_1/out.jpg
+open workspace/U45_1/out.jpg
+neo "$(zoxide query webser)" 
+neo ~/.config
+source ~/.config/zsh/.zshrc
+neo webs
+z web
+z web
+zoxide
+zoxide query 
+zoxide query web
+cd 
+cd Documents/CppWebServer
+l
+opencode 
+z ba
+opencode 
+neo 
+open workspace/U45_1/out.jpg
+open workspace/U45_1/out.jpg
+opencode 
+z we
+z
+ssh archLain
+open workspace/U45_1/out.jpg
+tldr nix
+brew outdated 
+brew update 
+brew update 
+brew update 
+brew update 
+brew upgrade 
+neo .con
+l
+cd agents/zjc/v3
+l
+rm blue_channel.png green_channel.png red_channel.png 
+l
+uv run spilt_lab.py
+yy
+uv run spilt_lab.py
+yy
+uv run spilt_lab.py
+yy
+cp ~/Downloads
+cp ~/Downloads/ChatGPT\ Image\ May\ 22,\ 2026,\ 08_44_11\ PM.png . 
+l
+mv ChatGPT\ Image\ May\ 22,\ 2026,\ 08_44_11\ PM.png new_l.png
+l
+yy 
+l
+uv run agent_lab.py
+uv run agent_lab.py
+l
+l
+ssh archLain
+z ba
+brew update 
+brew upgrade 
+brew search alttab
+brew install alt-tab
+brew rm --zap alt-tab
+opencode 
+opencode 
+uv run agents
+cd agents/zjc/3
+cd agents/zjc/v3/ 
+l
+uv run agent.py agent.py
+uv run agent.py 
+uv run agent.py 
+uv run agent.py 
+uv run agent.py 
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run spilt.py
+ls
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent.py
+ssh archLain
+brew update 
+ssh archLain
+scp .config/ archLain:dotfile/
+scp -rt .config/ archLain:dotfile/
+scp -r .config/ archLain:dotfile/
+scp -r .config/ archLain:Code
+ssh archLain
+ssh archLain
+yy
+ssh archLain
+yy
+cat .zshenv
+l
+cd Note/Draft
+ls
+cd .obsidian
+l
+cd themes
+l
+l
+cd ..
+rm themes
+rm -rf themes/
+l
+ln -s ~/.config/obsidian/themes themes/
+ln -s ~/.config/obsidian/themes .
+l
+l
+ls 
+ls -al
+cd themes
+l
+rm Catppuccin
+zellij --layout=~/.config/zellij/layouts/layout.kdl
+ssh archLain
+ssh archLain
+ssh archLain
+z web 
+z web
+l
+neo 
+neo . 
+neo zsh
+l
+ls
+l
+neo 
+neo 
+.
+.
+neo .config
+d
+l
+l
+cd 
+l
+l
+cd Note/Draft/.obsidian
+l
+cd plugins
+l
+rm darlal-switcher-plus
+rm -rf darlal-switcher-plus
+l
+ln -s ~/.config/obsidian/plugins/darlal-switcher-plus
+l
+cd darlal-switcher-plus
+l
+ls
+l
+cd .. 
+l
+rm -rf .
+rm -rf * 
+l
+ln -s ~/.config/obsidian/plugins/darlal-switcher-plus
+ln -s ~/.config/obsidian/plugins/obsidian-hider
+ln -s ~/.config/obsidian/plugins/obsidian-style-settings
+ln -s ~/.config/obsidian/plugins/obsidian-minimal-settings
+rm ../appearance.json
+cd .. 
+ln -s ~/.config/obsidian/appearance.json
+l
+cat app.json
+rm app.json
+ln -s ~/.config/obsidian/appearance.json
+cp ~/Note/Operation\ System/.obsidian/app.json ~/.config/obsidian
+ln -s ~/.config/obsidian/app.json
+l
+rm snippets
+cd plugins
+l
+eza 
+eaz l
+eza -ls
+eza -l
+eza -al
+rm .DS_Store
+neo ~/.config
+l
+l
+l
+l
+l
+l
+l
+source ~/.config/zsh/.zshrc
+l
+ln -s ~/.config/obsidian/plugins/obsidian-linter 
+ln -s ~/.config/obsidian/plugins/easy-typing-obsidian
+ln -s ~/.config/obsidian/plugins/obsidian-advanced-new-file
+ln -s ~/.config/obsidian/plugins/oz-clear-unused-images
+ln -s ~/.config/obsidian/plugins/scrolling
+ln -s ~/.config/obsidian/plugins/obsidian-latex-suite
+l --tree ~/Note/RustNote/.obsidian
+fzf
+cd
+neo ~/.config
+fzf
+l
+fzf
+l
+cd 
+exit
+l
+cd 
+l
+l
+cd Google\ Drive
+l
+cd .. 
+l
+l
+l
+l
+cd
+l
+exit
+l
+cds
+l
+cd l
+cd l
+cd l
+cd 
+l
+l
+ls 0al
+ls -al
+cd Google\ Drive
+l
+cd .. 
+exit
+l
+ls
+l
+l
+cd .config/
+cd zsh
+opencode 
+codex
+codex
+exit
+exit
+exit
+z ba
+z webs
+l
+neo 
+opencode 
+l
+xmake 
+xmake 
+xmakr 
+xmake 
+xmake 
+xmake 
+clangd --check .
+clangd --check=.
+exit
+neo 
+brew outdated 
+brew update 
+brew upgrade 
+cd
+fd opencode 
+fzf
+l
+l
+fd 
+f
+l
+cd .config
+l
+cd .. 
+neo .config/opencode/oh-my-openagent.json
+exit
+exit
+l ~/.config/obsidian
+cd ~/.config/obsidian
+pwd
+z note
+fzf
+fd backup
+fd -h backpu
+fd -H backup 
+fzf
+fd -H backup 
+l
+cd 
+cd Note
+l
+l
+cat ~/.config/obsidian
+l ~/.config/obsidian
+yy 
+z note
+opencode 
+codex
+pwd
+l
+cd sc
+mkdir root 
+l
+cd root
+l
+ls
+l
+cd .. 
+l
+mkdir data
+l
+cd data
+cd ..
+l
+cd root
+l
+open index.html
+open error.html
+open login.html
+xmake run 
+exit
+exit
+xmake run 
+codex 
+cd 
+cd Documents/CppWebServer
+l
+opencode 
+cd 
+z webf
+z webs 
+l
+opencode 
+opencode 
+ls
+bunx --help
+bun ls
+bun list
+bun list -g
+cd
+brew rm --zap opencode 
+yy 
+cd 
+fzf 
+yy 
+cd
+brew install opencode 
+brew install anomalyco/tap/opencode
+opencode 
+bunx oh-my-openagent install # recommended
+bunx oh-my-openagent install 
+opencode 
+z webs 
+opencode 
+z web
+z wevs
+z webs
+z webs
+l
+opencode 
+opencode 
+codex
+l
+l
+cd 
+l
+z webs
+l
+l --tree src
+cat src/webserver/net/server.cpp
+neo 
+z code
+l
+cd Python
+l
+z ba
+l
+cat core/llm/__init__.py
+l
+z ba
+ neo 
+;
+l
+l agents
+l
+cd agents
+l
+cd
+s
+l
+l
+l
+rm .claude
+cd .claude
+l
+cd transcripts
+l
+cd 
+neo .config
+cd agents/zjc/v3/ 
+uv run agent_lab.py
+uv run agent_lab.py
+uv run agent.p
+uv run agent.py
+OA
+uv run agent.py
+uv run agent.py
+ssh archLain
+exit
+zellij -l layout
+exit
+l .config/zellij/layouts
+cat .config/zellij/layouts/layout.kdl
+zellij --layout=~/.config/zellij/layouts/layout.kdl
+zellij --layout ~/.config/zellij/layouts/layout.kdl
+k
+l
+neo .config
+source ~/.config/zsh/.zshrc\\
+
+l
+neo .config
+rm .claude
+rm -rf .claude
+neo .config
+l
+exit
+exit
+l
+neo .config
+zellij -l layout 
+exit
+exit 
+l
+brew update 
+brew update 
+brew upgrade
+brew upgrade
+l
+l
+cd 
+ls
+zellij p
+;
+zellij 
+zellij -l layout 
+zellij ls
+zellij delete-all-sessions
+zellij ls
+zellij kill-all-sessions
+zellij ls
+zellij delete-all-sessions
+l
+cd Code
+l
+cd 
+ssh archLain
+l
+l
+ssh archLain
+l
+cd .Trash
+l
+cd 
+cd
+l
+open .zshenv
+open .zshenv
+l
+l
+ls
+l
+z webs 
+l
+neo 
+yy
+l
+l
+cd ../.. 
+l
+l
+cd agents/zjc/v3
+uv run agent
+uv run agent.py
+uv run agent.py
+uv run agent_lab.py
+uv run agent_lab.py
+uv run agent_lab.py
+uv run agent_lab.py
+uv run agent.py
+uv run agent.py
+uv run spilt_rgb.py
+l
+yy 
+l
+l
+yy 
+jcd .. 
+yy 
+l
+cp ~/Downloads/ChatGPT\ Image\ May\ 24,\ 2026,\ 06_32_34\ PM.png .
+mv ChatGPT\ Image\ May\ 24,\ 2026,\ 06_32_34\ PM.png
+mv ChatGPT\ Image\ May\ 24,\ 2026,\ 06_32_34\ PM.png new_r.png
+l
+l
+open red_channel_new.png
+open rgb_new.png
+cp rgb_new.png ../../../workspace/Slight/0
+uv run agent_lab.py
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent_lab.py
+uv run agent.py
+uv run agent.py
+uv run spilt_rgb.py
+yy 
+uv run agent.py
+uv run agent.py
+uv run agent.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+cp workspace/LowLevelEval/Underwater_Enhancement/U45/8.png workspace/Severe/2/in.png
+mkdir workspace/Severe/2/ 
+cp workspace/LowLevelEval/Underwater_Enhancement/U45/8.png workspace/Severe/2/in.png
+l
+cp workspace/LowLevelEval/Underwater_Enhancement/U45_NBPro/8.png workspace/Severe/2/nb.png
+l
+l
+mkdir workspace/Slight/4/
+l
+cp workspace/LowLevelEval/Underwater_Enhancement/U45/41.png workspace/Slight/4/in.png
+cp workspace/LowLevelEval/Underwater_Enhancement/U45_NBPro/41.png workspace/Slight/4/nb.pn
+mv workspace/Slight
+mv workspace/Slight/4/nb.pn workspace/Slight/4/nb.png
+l
+mkdir workspace/Slight/5/
+cp workspace/LowLevelEval/Underwater_Enhancement/U45/41.png workspace/Slight/5/in.png 
+cp workspace/LowLevelEval/Underwater_Enhancement/U45_NBPro/41.png workspace/Slight/5/nb.png 
+l
+l
+open workspace/Severe/1/deblur.png
+l workspace/Slight
+l --tree workspace/Slight
+open workspace/Slight/0
+l --tree workspace/Slight
+tldr cond 
+tldr conda
+l
+l --tree workspace/Slight
+open workspace/Slight/5/in.png
+mkdir workspace/Slight/6/
+l
+cp workspace/LowLevelEval/Underwater_Enhancement/U45/37.png workspace/Slight/6/in.png 
+cp workspace/LowLevelEval/Underwater_Enhancement/U45_NBPro/37.png workspace/Slight/6/nb.png 
+l
+mkdir workspace/Severe/3/
+cp workspace/LowLevelEval/Underwater_Enhancement/U45/2.png workspace/Severe/3/in.png 
+cp workspace/LowLevelEval/Underwater_Enhancement/U45_NBPro/2.png workspace/Severe/3/nb.png 
+l
+l
+ls
+l
+l
+mkdir workspace/Slight/7/ 
+cp workspace/LowLevelEval/Underwater_Enhancement/U45/13.png workspace/low
+rm workspace/low
+cp workspace/LowLevelEval/Underwater_Enhancement/U45/13.png workspace/Slight/7/in.png 
+mkdir workspace/Slight/8/
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB_NBPro/25_img_.png workspace/Slight/8/in.png 
+open workspace/Slight/8/in.png
+open workspace/Slight/8/in.png workspace/Slight/8/nb.png
+l --tree workspace/Slight
+l --tree workspace/Slight
+open workspace/Slight/8/in.png workspace/Slight/8/nb.png
+mv workspace/Slight/8/in.png workspace/Slight/8/nb.pngf
+mv workspace/Slight/8/nb.pngf workspace/Slight/8/nb.png 
+mv workspace/LowLevelEval/Underwater_Enhancement/UIEB/test_input/25_img_.png workspace/Slight/8/in.png 
+open workspace/Slight/8/in.png workspace/Slight/8/nb.png
+mkdir workspace/Severe/4/ 
+l
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB/test_expert/10_img_.png
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB/test_expert/10_img_.png workspace/Severe/4/in.png 
+l
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB_NBPro/10_img_.png workspace/Severe/4/nb.png 
+mkdir workspace/Slight/9/ 
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB/test_expert
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB/test_
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB/test_input/11374.png workspace/Slight/9/in.png 
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB_NBPro/11374.png workspace/Slight/9/nb.png 
+l
+mkdir workspace/Slight/10/ 
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB/test_expert/319_img_.png workspace/Slight/10/in.png 
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB_NBPro/319_img_.png workspace/Slight/10/nb.png 
+mkdir workspace/Slight/11/ 
+l
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB/test_input/506_img_.png workspace/Slight/11/in.png 
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB_NBPro/506_img_.png workspace/Slight/11/nb.png
+mkdir workspace/Slight/12
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB/test_expert/780_img_.png workspace/Slight/12/in.png 
+cp workspace/LowLevelEval/Underwater_Enhancement/UIEB_NBPro/780_img_.png workspace/Slight/12/nb.png 
+l
+open workspace/Severe/1/outout_lab.png
+mkdir workspace/Severe/5/ 
+cp workspace/LowLevelEval/Underwater_Enhancement/LSUI/input/1404.jpg workspace/Severe/5/in.png 
+cp workspace/LowLevelEval/Underwater_Enhancement/LSUI/GT/1404.jpg workspace/Severe/5/gt.jpg 
+mv workspace/Severe/5/in.png workspace/Severe/5/in.jpg 
+cp workspace/LowLevelEval/Underwater_Enhancement/LSUI_NBPro/1404.jpg workspace/Severe/5/nb.jpg 
+open workspace/Slight/0/gt.jpg
+open workspace/Severe/0
+open workspace/Severe/0/*
+open workspace/Severe/2/* 
+codex 
+cd ..
+cd ..
+cd ..
+l
+codex
+builtin cd -- /Users/lainniay/Code/Python/BananaByte/docs
+cd 
+l
+scp Downloads/ËÆÉÅÁÆÉ∑ÊÉº∫ÁªÉ§ÊÉ®É∞ÂÉÆÉøÁÉ∞É¶ËØæÁ®É´ÂÆÉæÈ™É¨ archLain:
+scp -r Downloads/ËÆÉÅÁÆÉ∑ÊÉº∫ÁªÉ§ÊÉ®É∞ÂÉÆÉøÁÉ∞É¶ËØæÁ®É´ÂÆÉæÈ™É¨ archLain:
+ssh archLain
+l
+uv run download.py
+exit
+cd 
+cd Documents
+l
+cd Computer\ Organization
+l
+ls
+touch processer.circ
+neo ~/.config/zsh/.zsh_history
+brew update 
+brew outdated
+brew search logisim-evolution
+brew info logisim-evolution
+brew install --cask logisim-evolution
+z v3
+l
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+OA
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+cp ../v2/calculate.py .
+l
+l
+cp ../v2/eval_image.py . 
+ uv run eval_image.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+neo .
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+OA
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+uv run agent_xd.py
+z webs 
+neo . 
+codex
+z ba
+cd workspace
+l
+mkdir Single 
+l
+mkdir Multiple
+l
+rm .gitkeep 
+l
+l
+cd LowLevelEval
+l
+cd ..
+l
+l
+yy
+l
+l
+cd ..
+yy 
+cd .. 
+yy 
+yy 
+l
+cd ..
+l
+yy 
+l
+yy 
+yy 
+l
+l
+neo . 
+neo . 
+cd core
+l
+cd .
+cd .. 
+codex
+codex
+codex
+codex resume 019e5cae-d06a-7751-ba27-6c1bc72bf01a
+l
+cd
+brew search codex
+brew install codex-app 
+l
+z ba
+l
+rm download.py
+l
+ruff check . 
+ruff check . 
+z webs 
+neo . 
+exitr
+exit
+l
+l
+z ba
+ruff check . 
+git add . 
+git commit -m "zjc agent v3" 
+git push 
+exit
+l
+z ba
+yy 
+z ba
+git add . 
+git status
+git commit -m "remove png" 
+git push
+brew install codex-app 
+opencode --version
+brew update 
+ssh archLain
+exit
+brew search pi 
+bun add -g --ignore-scripts @earendil-works/pi-coding-agent
+bun add -g --ignore-scripts @earendil-works/pi-coding-agent
+pi
+pi
+l
+cd
+l
+exut
+exit
+l
+l
+l
+z wbs
+l
+z webs 
+l
+opencode 
+z webs 
+opencode 
+pi
+exit
+exit
+brew update 
+brew update 
+z webs 
+l
+opencode 
+exit
+xmake rub 
+xmake run 
+xmake run 
+xmake run 
+xmake run 
+xmake run 
+xmake run 
+mkdir config
+l
+exit
+/Users/lainniay/.local/share/cargo/bin/neovide ; exit;

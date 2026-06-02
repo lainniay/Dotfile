@@ -13,7 +13,8 @@ return {
             python = {
               analysis = {
                 -- 顺便限制它只分析打开的文件，降低后台 CPU 消耗
-                diagnosticMode = "openFilesOnly",
+                autoImportCompletions = true,
+                includeAliasesFromUserFiles = true,
               },
             },
           },

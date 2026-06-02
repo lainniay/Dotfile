@@ -1,90 +1,60 @@
 {
-  "profiles": [
-    {
-      "complex_modifications": {
-        "rules": [
-          {
-            "description": "For Vim",
-            "manipulators": [
-              {
-                "conditions": [
-                  {
-                    "bundle_identifiers": [
-                      "^com\\.neovide\\.neovide$",
-                      "^com\\.mitchellh\\.ghostty$"
-                    ],
-                    "file_paths": [
-                      "/Users/lainniay/.local/share/cargo/bin/neovide"
-                    ],
-                    "type": "frontmost_application_if"
-                  }
-                ],
-                "from": {
-                  "key_code": "caps_lock",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "left_control"
-                  }
-                ],
-                "to_if_alone": [
-                  {
-                    "key_code": "escape"
-                  },
-                  {
-                    "select_input_source": {
-                      "input_source_id": "^com\\.apple\\.keylayout\\.UnicodeHexInput$"
+    "profiles": [
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "description": "For Vim",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.neovide\\.neovide$",
+                                            "^com\\.mitchellh\\.ghostty$"
+                                        ],
+                                        "file_paths": ["/Users/lainniay/.local/share/cargo/bin/neovide"],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "key_code": "left_control" }],
+                                "to_if_alone": [
+                                    { "key_code": "escape" },
+                                    { "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.UnicodeHexInput$" } }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Globla",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_control",
+                                        "lazy": true
+                                    }
+                                ],
+                                "to_if_alone": [{ "key_code": "f18" }],
+                                "to_if_held_down": [{ "key_code": "left_control" }],
+                                "type": "basic"
+                            }
+                        ]
                     }
-                  }
-                ],
-                "type": "basic"
-              }
-            ]
-          },
-          {
-            "description": "Globla",
-            "manipulators": [
-              {
-                "from": {
-                  "key_code": "caps_lock",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "left_control",
-                    "lazy": true
-                  }
-                ],
-                "to_if_alone": [
-                  {
-                    "key_code": "f18"
-                  }
-                ],
-                "to_if_held_down": [
-                  {
-                    "key_code": "left_control"
-                  }
-                ],
-                "type": "basic"
-              }
-            ]
-          }
-        ]
-      },
-      "name": "Default profile",
-      "selected": true,
-      "virtual_hid_keyboard": {
-        "keyboard_type_v2": "ansi"
-      }
-    }
-  ]
+                ]
+            },
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
 }

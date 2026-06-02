@@ -1,0 +1,72 @@
+.mermaid {
+  display: flex;
+  justify-content: center;
+}
+
+/*.theme-light {
+  --mermaid-fill : #e6e9ef;
+  --mermaid-stroke : #666666;
+}
+
+.theme-dark {
+  --mermaid-fill: #181825;
+  --mermaid-stroke: #45475a;
+}
+
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon,
+.mermaid .node path {
+    fill: var(--mermaid-fill) !important;
+    stroke: var(--mermaid-stroke) !important;
+    stroke-width: 1.25px !important;
+}
+
+.mermaid .cluster rect {
+  fill: transparent !important;
+  stroke: var(--mermaid-stroke) !important;
+  stroke-width: 1.25px !important;
+  stroke-dasharray: none !important;
+}
+
+.mermaid svg .flowchart-link {
+  stroke: var(--mermaid-stroke) !important;
+  stroke-width: 1.5px !important;
+}
+
+.mermaid svg marker path {
+  fill: var(--mermaid-stroke) !important;
+}
+
+.mermaid .cluster-label rect {
+  fill: transparent !important;
+}
+
+.mermaid .node.red rect, .mermaid .node.red circle, .mermaid .node.red polygon, .mermaid .node.red path {
+    fill: #E8B4B1 !important;
+}
+
+.mermaid .node.yellow rect, .mermaid .node.yellow circle, .mermaid .node.yellow polygon, .mermaid .node.yellow path {
+    fill: #F0E2B6 !important;
+}
+
+.mermaid .node.green rect, .mermaid .node.green circle, .mermaid .node.green polygon, .mermaid .node.green path {
+    fill: #B8D1C1 !important;
+}
+
+.mermaid .node.pink rect, .mermaid .node.pink circle, .mermaid .node.pink polygon, .mermaid .node.pink path {
+    fill: #EBCCD4 !important;
+}
+
+.mermaid .node.blue rect, .mermaid .node.blue circle, .mermaid .node.blue polygon, .mermaid .node.blue path {
+    fill: #B8CADE !important;
+}
+
+.mermaid .node.purple rect, .mermaid .node.purple circle, .mermaid .node.purple polygon, .mermaid .node.purple path {
+    fill: #CFCAE1 !important;
+}
+
+.mermaid .node.gray rect, .mermaid .node.gray circle, .mermaid .node.gray polygon, .mermaid .node.gray path {
+    fill: #DDE0E3 !important;
+}*/

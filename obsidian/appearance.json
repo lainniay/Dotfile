@@ -1,0 +1,20 @@
+{
+  "cssTheme": "Minimal",
+  "accentColor": "",
+  "monospaceFontFamily": "Monaspace Xenon,Symbols Nerd Font",
+  "textFontFamily": "Palatino,LXGW Neo ZhiSong",
+  "showViewHeader": false,
+  "nativeMenus": false,
+  "showRibbon": false,
+  "interfaceFontFamily": "",
+  "baseFontSize": 18,
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "ui",
+    "math",
+    "mermaid",
+    "image"
+  ],
+  "theme": "system",
+  "translucency": false
+}

@@ -1,0 +1,26 @@
+{
+  "foldHeading": true,
+  "showInlineTitle": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false,
+  "readableLineLength": false,
+  "focusNewTab": true,
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "spellcheck": true,
+  "smartIndentList": true,
+  "alwaysUpdateLinks": true,
+  "vimMode": false,
+  "propertiesInDocument": "visible",
+  "userIgnoreFilters": [
+    "attachments/",
+    "Homework/"
+  ],
+  "attachmentFolderPath": "attachments",
+  "showIndentGuide": true
+}

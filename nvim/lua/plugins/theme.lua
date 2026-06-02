@@ -14,14 +14,16 @@ return {
     custom_highlights = function(colors)
       return {
         DashboardHeader = { fg = colors.text },
-
         DashboardIcon = { fg = colors.text },
-
         DashboardDesc = { fg = colors.text },
-
         DashboardKey = { fg = colors.text },
-
         DashboardFooter = { fg = colors.overlay0, style = { "italic" } },
+
+        FloatBorder = { fg = colors.maroon, style = { "bold" } },
+        AlphaHeader = { fg = colors.pink },
+        AlphaButtons = { fg = colors.blue },
+        AlphaShortcut = { fg = colors.blue },
+        AlphaFooter = { fg = colors.overlay0, style = { "italic" } },
       }
     end,
 

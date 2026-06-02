@@ -12,11 +12,23 @@ compdef _ls neo
 
 
 unalias l 2>/dev/null
+
 function l() {
-  eza -a -l --icons --git --no-time -b  --group-directories-first \
-      --no-symlinks \
-      --ignore-glob=".gemini|.DS_Store|.CFUserTextEncoding|.vscode*|.ssh|.obsidian-cli.sock|.npm|.agents" \
-      "$@"
+  local eza_args=(
+    -l
+    --icons
+    --git
+    --no-time
+    -b
+    --group-directories-first
+    --ignore-glob=".DS_Store|Google Drive"
+  )
+
+  if [[ "$PWD" == "$HOME" ]]; then
+    command eza "${eza_args[@]}" "$@"
+  else
+    command eza -a "${eza_args[@]}" "$@"
+  fi
 }
 
 function yy() {

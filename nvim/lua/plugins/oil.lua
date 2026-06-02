@@ -3,6 +3,7 @@ return {
   opts = {
     default_file_explorer = true,
     delete_to_trash = true,
+    skip_confirm_for_simple_edits = true,
     keymaps = {
       ["<C-l>"] = "actions.select",
       ["<C-h>"] = { "actions.parent", mode = "n" },
@@ -13,7 +14,7 @@ return {
     use_default_keymaps = false,
     float = {
       win_options = {
-        winblend = 40,
+        winblend = 30,
       },
       get_win_title = function()
         return "Oil"
@@ -29,6 +30,9 @@ return {
           [".xmake"] = true,
           [".npm"] = true,
           [".CFUserTextEncoding"] = true,
+          [".obsidian-cli.sock"] = true,
+          [".vscode"] = true,
+          [".vecode-share"] = true,
         }
         if hidden_list[name] then
           return true
