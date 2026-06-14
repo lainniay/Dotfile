@@ -25,8 +25,8 @@ hash = "e519d894e94ded741e06aae4d4775981"
 
 [[plugin.deps]]
 use = "XYenon/clipboard"
-rev = "3b96810"
-hash = "13d7eb15a079c735e34124b922322de5"
+rev = "0ac0320"
+hash = "f80172438b4b5c31e94d6c891f734445"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"

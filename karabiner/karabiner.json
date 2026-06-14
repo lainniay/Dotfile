@@ -10,7 +10,6 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com\\.neovide\\.neovide$",
                                             "^com\\.mitchellh\\.ghostty$"
                                         ],
                                         "file_paths": ["/Users/lainniay/.local/share/cargo/bin/neovide"],

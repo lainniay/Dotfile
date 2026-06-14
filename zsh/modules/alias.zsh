@@ -12,7 +12,6 @@ compdef _ls neo
 
 
 unalias l 2>/dev/null
-
 function l() {
   local eza_args=(
     -l

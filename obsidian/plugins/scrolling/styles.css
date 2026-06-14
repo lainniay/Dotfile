@@ -15,13 +15,13 @@ body.scrolling-visibility-hide *::-webkit-scrollbar {
 body.scrolling-visibility-scroll *:not(.scrolling-show-temporary)::-webkit-scrollbar:not(:hover),
 body.scrolling-visibility-scroll *:not(.scrolling-show-temporary)::-webkit-scrollbar-thumb:not(:hover),
 body.scrolling-visibility-scroll *:not(.scrolling-show-temporary)::-webkit-scrollbar-track:not(:hover) {
-    background: transparent !important;
+    background: transparent;
 }
 
 /* scrollbar width */
 body.scrolling-scrollbar-width *::-webkit-scrollbar {
-    width: var(--scrolling-scrollbar-width) !important;
-    height: var(--scrolling-scrollbar-width) !important;
+    width: var(--scrolling-scrollbar-width);
+    height: var(--scrolling-scrollbar-width);
 }
 
 /* --- Code blocks --- */
@@ -42,7 +42,7 @@ body.scrolling-horizontal-code-blocks .markdown-source-view .HyperMD-codeblock.c
     cursor: text;
 }
 
-body.scrolling-horizontal-code-blocks .markdown-source-view .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end):has(br):not(:has(span)) {
+body.scrolling-horizontal-code-blocks .markdown-source-view .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end):has(> br) {
     max-height: calc(1em * var(--line-height-normal));
 }
 
@@ -115,7 +115,7 @@ body.scrolling-image-zoom-enabled .cm-content span.image-embed {
 }
 
 /* prevent overflow for images in tables in preview view */
-body.scrolling-image-zoom-enabled .el-p:has(img:not(.cm-widgetBuffer)) {
+body.scrolling-image-zoom-enabled .el-p:has(> p > span > img:not(.cm-widgetBuffer)) {
     overflow: hidden;
 }
 

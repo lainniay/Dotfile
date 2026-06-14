@@ -1,7 +1,0 @@
-{"type":"tool_use","timestamp":"2026-05-25T08:26:49.728Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"OWASP CSRF Prevention Cheat Sheet official GitHub 2026","numResults":5}}
-{"type":"tool_use","timestamp":"2026-05-25T08:26:49.739Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"OWASP Authentication Cheat Sheet session re-authentication official GitHub 2026","numResults":5}}
-{"type":"tool_use","timestamp":"2026-05-25T08:26:49.745Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"Linux listen backlog man page source GitHub 2026","numResults":5}}
-{"type":"tool_use","timestamp":"2026-05-25T08:26:49.750Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"C++ thread pool configuration runtime reload best practices GitHub 2026","numResults":5}}
-{"type":"tool_result","timestamp":"2026-05-25T08:26:51.430Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"OWASP Authentication Cheat Sheet session re-authentication official GitHub 2026","numResults":5},"tool_output":{}}
-{"type":"tool_result","timestamp":"2026-05-25T08:26:51.807Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"Linux listen backlog man page source GitHub 2026","numResults":5},"tool_output":{}}
-{"type":"tool_result","timestamp":"2026-05-25T08:26:51.820Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"C++ thread pool configuration runtime reload best practices GitHub 2026","numResults":5},"tool_output":{}}

@@ -1,6 +1,0 @@
-{"type":"tool_use","timestamp":"2026-05-28T03:02:44.637Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"2026 official docs simple search API search autocomplete stats upload retrieval app endpoints","numResults":5}}
-{"type":"tool_use","timestamp":"2026-05-28T03:02:44.833Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"2026 Meilisearch docs search autocomplete stats documents import API","numResults":5}}
-{"type":"tool_use","timestamp":"2026-05-28T03:02:44.838Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"2026 Typesense docs search autocomplete stats import API","numResults":5}}
-{"type":"tool_result","timestamp":"2026-05-28T03:02:46.535Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"2026 official docs simple search API search autocomplete stats upload retrieval app endpoints","numResults":5},"tool_output":{}}
-{"type":"tool_result","timestamp":"2026-05-28T03:02:46.734Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"2026 Meilisearch docs search autocomplete stats documents import API","numResults":5},"tool_output":{}}
-{"type":"tool_result","timestamp":"2026-05-28T03:02:46.840Z","tool_name":"websearch_web_search_exa","tool_input":{"query":"2026 Typesense docs search autocomplete stats import API","numResults":5},"tool_output":{}}
