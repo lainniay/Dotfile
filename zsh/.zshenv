@@ -3,6 +3,8 @@
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_BIN_HOME="$HOME/.local/bin"
 
 # ==========================================
 # 2. Environment Variables & Paths (RUST/GO/ETC)
@@ -35,6 +37,8 @@ export PATH="$GOPATH/bin:$PATH"
 # Node
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export NPM_CONFIG_CACHE="$XDG_CACHE_HOME/npm"
+export NPM_CONFIG_PREFIX="$XDG_DATA_HOME/npm"
+export PATH="$NPM_CONFIG_PREFIX/bin:$PATH"
 export NODE_REPL_HISTORY="$XDG_DATA_HOME/node_repl_history"
 
 # BUN
@@ -46,6 +50,10 @@ export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
 
 # Mason 
 export PATH="$XDG_DATA_HOME/nvim/mason/bin:${PATH}"
+
+# Haskell
+export GHCUP_USE_XDG_DIRS=1
+export PATH="$XDG_BIN_HOME:$PATH"
 
 # XMake 
 export XMAKE_GLOBALDIR="$XDG_CONFIG_HOME/xmake"

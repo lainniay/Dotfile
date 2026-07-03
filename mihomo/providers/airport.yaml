@@ -1,0 +1,304 @@
+---
+proxies:
+- name: Singapore 01
+  type: vless
+  server: sg-g13.bestcnline.com
+  port: 443
+  uuid: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  skip-cert-verify: true
+  servername: sg.speedtest.net
+  reality-opts:
+    public-key: 85hd6dmgSm8JZkDGVSGVahpjt9brimo1ZZ3HrZ0qzB8
+    short-id: a3da9dcfeb1a92
+  client-fingerprint: chrome
+  network: tcp
+- name: Japan 01
+  type: vless
+  server: jp-g15.bestcnline.com
+  port: 443
+  uuid: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  skip-cert-verify: true
+  servername: jp.speedtest.net
+  reality-opts:
+    public-key: JrFNY8hy6b4g0VuDAl3irSjF4jTTOaskdTSP4PbCi2Q
+    short-id: 8d4aeced502d
+  client-fingerprint: chrome
+  network: tcp
+- name: HongKong 01
+  type: vless
+  server: hk-11.bestcnline.com
+  port: 443
+  uuid: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  skip-cert-verify: true
+  servername: hk.speedtest.net
+  reality-opts:
+    public-key: e4uWKryQxlmpSfhYmpyeDC7-pkcvCmhW3rc-SdyTHHQ
+    short-id: 585f38b037
+  client-fingerprint: chrome
+  network: tcp
+- name: HongKong 02
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: hk00.speedtest.net
+  skip-cert-verify: true
+- name: HongKong 03
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: hk01.speedtest.net
+  skip-cert-verify: true
+- name: HongKong 04
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: hk02.speedtest.net
+  skip-cert-verify: true
+- name: HongKong 05
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: hk03.speedtest.net
+  skip-cert-verify: true
+- name: HongKong 06
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: hk04.speedtest.net
+  skip-cert-verify: true
+- name: HongKong 07
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: hk05.speedtest.net
+  skip-cert-verify: true
+- name: HongKong 08
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: hk06.speedtest.net
+  skip-cert-verify: true
+- name: HongKong 09
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: hk07.speedtest.net
+  skip-cert-verify: true
+- name: HongKong 10
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: hk08.speedtest.net
+  skip-cert-verify: true
+- name: Singapore 02
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: sg01.speedtest.net
+  skip-cert-verify: true
+- name: Singapore 03
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: sg02.speedtest.net
+  skip-cert-verify: true
+- name: Singapore 04
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: sg03.speedtest.net
+  skip-cert-verify: true
+- name: Singapore 05
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: sg04.speedtest.net
+  skip-cert-verify: true
+- name: Singapore 06
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: sg05.speedtest.net
+  skip-cert-verify: true
+- name: Japan 02
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: jp01.speedtest.net
+  skip-cert-verify: true
+- name: Japan 03
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: jp02.speedtest.net
+  skip-cert-verify: true
+- name: Japan 04
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: jp03.speedtest.net
+  skip-cert-verify: true
+- name: Japan 05
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: jp04.speedtest.net
+  skip-cert-verify: true
+- name: Japan 06
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: jp05.speedtest.net
+  skip-cert-verify: true
+- name: Japan 07
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: jp06.speedtest.net
+  skip-cert-verify: true
+- name: Taiwan 01
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: tw01.speedtest.net
+  skip-cert-verify: true
+- name: Taiwan 02
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: tw02.speedtest.net
+  skip-cert-verify: true
+- name: Taiwan 03
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: tw03.speedtest.net
+  skip-cert-verify: true
+- name: Taiwan 04
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: tw04.speedtest.net
+  skip-cert-verify: true
+- name: UnitedStates 01
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: us01.speedtest.net
+  skip-cert-verify: true
+- name: UnitedStates 02
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: us02.speedtest.net
+  skip-cert-verify: true
+- name: UnitedStates 03
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: us03.speedtest.net
+  skip-cert-verify: true
+- name: UnitedStates 04
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: us04.speedtest.net
+  skip-cert-verify: true
+- name: UnitedStates 05
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: us05.speedtest.net
+  skip-cert-verify: true
+- name: UnitedStates 06
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: us06.speedtest.net
+  skip-cert-verify: true
+- name: UnitedStates 07
+  type: anytls
+  server: test.fbline.fyi
+  port: 58443
+  password: e9ba46fe-358b-46de-a5dd-2f2ebbc7ee91
+  udp: true
+  sni: us07.speedtest.net
+  skip-cert-verify: true

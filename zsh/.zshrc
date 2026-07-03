@@ -10,4 +10,6 @@ source "$ZDOTDIR/modules/zoxide.zsh"
 
 source "$ZDOTDIR/modules/environment.zsh"
 
+source "$ZDOTDIR/modules/key.zsh"
+
 bindkey -e

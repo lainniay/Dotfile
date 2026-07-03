@@ -4,6 +4,8 @@ alias cl="clang++"
 
 alias th="trash"
 
+alias oc="opencode"
+
 function neo() {
     neovide "$@" </dev/null >|/tmp/neovide.log 2>&1 &!
 }

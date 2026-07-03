@@ -5,3 +5,19 @@ export FZF_DEFAULT_OPTS=" \
 --color=border:#6C7086,label:#CDD6F4"
 
 zstyle ':fzf-tab:*' use-fzf-default-opts yes
+
+zstyle ':completion:*' ignored-patterns \
+  '.omo' \
+  '.omo/' \
+  '*/.omo' \
+  '*/.omo/' \
+  '.obsidian-cli.sock' \
+  '*/.obsidian-cli.sock' \
+  '.DS_Store' \
+  '*/.DS_Store' \
+  '.CFUserTextEncoding' \
+  '*/.CFUserTextEncoding' \
+  '.context7' \
+  '.context7/' \
+  '*/.context7' \
+  '*/.context7/' \

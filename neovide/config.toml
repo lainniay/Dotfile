@@ -24,7 +24,10 @@ style = "Normal"
   "+ss09",
   "+ss10",
   "+liga",
+  "+cv01=2",
+  "+cv62",
 ]
+
 
 [[font.normal]]
 family = "Symbols Nerd Font"

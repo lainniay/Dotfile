@@ -1,27 +1,32 @@
-# --- macOS ---
+# --- OS metadata ---
 .DS_Store
 .AppleDouble
 .LSOverride
 ._*
+.localized
 
-# --- Logs / temp / backups ---
+# --- Editor swap files ---
+*.swp
+*.swo
+*~
+
+# --- Logs, temp files, backups ---
 *.log
+debug.log
 *.tmp
 *.bak
 *.bak.*
 *.backup
 *.old
-*.swp
-*.swo
-*~
-debug.log
 
 # --- Nested Git repositories ---
 **/.git/
 
-# --- Local env / secrets / credentials ---
+# --- Local env, secrets, credentials ---
 .env
 .env.*
+!.env.example
+!.env.*.example
 *.local
 secrets.*
 tokens/
@@ -32,7 +37,8 @@ ssh_keys/
 *.pfx
 gh/hosts.yml
 
-# --- App sessions / account state / private cache ---
+# --- App sessions, account state, private cache ---
+**/.omo/
 configstore/
 .copilot/
 github-copilot/
@@ -41,18 +47,26 @@ codex/
 claude/transcripts/
 homebrew/
 matplotlib/
+context7/
+pi/agent/auth.json
+pi/agent/sessions/
+pi/agent/git/
+pi/agent/npm/
 
-# --- Node / web ---
+# --- Package manager output ---
 node_modules/
+.pnpm-store/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
 # --- Opencode ---
-opencode/node_modules/
+opencode/.gitignore
 opencode/opencode-notifier-state.json
+opencode/package.json
 opencode/package-lock.json
+opencode/bun.lock
 opencode/*.bak.*
 opencode/*.migrations.json
 
@@ -76,15 +90,13 @@ mole/*.log
 .zsh_history
 .zcomp*
 .zprofile
+zsh/modules/key.zsh
+zsh/completions/_*
 zsh/.zsh_sessions/
 zsh/zim/
-zsh/.omo/
 
 # --- Zed ---
 zed/prompts/prompts-library-db.0.mdb/
 
 # --- Xmake ---
-xmake/.xmake
-
-# --- context7 ---
-context7/
+xmake/.xmake/

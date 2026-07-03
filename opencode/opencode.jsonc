@@ -3,7 +3,8 @@
   "plugin": [
     "oh-my-openagent@latest",
     "@mohak34/opencode-notifier@latest",
-    "@tarquinen/opencode-dcp@latest"
+    "@tarquinen/opencode-dcp@latest",
+    "@dietrichgebert/ponytail"
   ],
   "provider": {
     "myprovider": {

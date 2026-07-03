@@ -81,5 +81,6 @@
   "minimal-style@@metadata-icons-off": false,
   "minimal-style@@metadata-dividers": true,
   "minimal-style@@metadata-label-width-multiplier": 9,
-  "minimal-style@@h1-weight": 400
+  "minimal-style@@h1-weight": 400,
+  "minimal-style@@bold-modifier": 400
 }
