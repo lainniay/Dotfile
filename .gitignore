@@ -12,7 +12,6 @@
 
 # --- Logs, temp files, backups ---
 *.log
-debug.log
 *.tmp
 *.bak
 *.bak.*
@@ -85,6 +84,16 @@ lazygit/state.yml
 
 # --- Mole ---
 mole/*.log
+
+# --- Mihomo ---
+mihomo/config.yaml
+mihomo/launchd/
+mihomo/providers/
+mihomo/cache/
+mihomo/cache.db
+mihomo/logs/
+mihomo/*.metadb
+mihomo/subscription.url
 
 # --- Zsh ---
 .zsh_history
