@@ -1,0 +1,158 @@
+proxy-providers:
+    MctlNodes:
+        type: file
+        path: ./providers/nodes.yaml
+        health-check:
+            enable: true
+            interval: 300
+            url: https://www.gstatic.com/generate_204
+proxy-groups:
+    - name: NodeSelection
+      type: select
+      use:
+        - MctlNodes
+    - name: OpenAI
+      type: select
+      use:
+        - MctlNodes
+      filter: (?i)^(Japan|United States)
+rules:
+    - DOMAIN-KEYWORD,admarvel,REJECT
+    - DOMAIN-KEYWORD,admaster,REJECT
+    - DOMAIN-SUFFIX,umeng.com,REJECT
+    - DOMAIN-SUFFIX,talkingdata.com,REJECT
+    - DOMAIN-SUFFIX,mobile.events.data.microsoft.com,REJECT
+    - DOMAIN-SUFFIX,ts.net,DIRECT
+    - DOMAIN-SUFFIX,tailscale.com,DIRECT
+    - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+    - IP-CIDR,192.168.0.0/16,DIRECT
+    - IP-CIDR,10.0.0.0/8,DIRECT
+    - IP-CIDR,172.16.0.0/12,DIRECT
+    - IP-CIDR,127.0.0.0/8,DIRECT
+    - DOMAIN-KEYWORD,newapi,DIRECT
+    - DOMAIN-KEYWORD,bilibili,DIRECT
+    - DOMAIN-KEYWORD,api3.wlai,DIRECT
+    - DOMAIN-KEYWORD,tencent,DIRECT
+    - DOMAIN-SUFFIX,taobao.com,DIRECT
+    - DOMAIN-SUFFIX,qq.com,DIRECT
+    - DOMAIN-SUFFIX,12306.cn,DIRECT
+    - DOMAIN-KEYWORD,alipay,DIRECT
+    - DOMAIN-SUFFIX,apple.com,DIRECT
+    - DOMAIN-SUFFIX,icloud.com,DIRECT
+    - DOMAIN-SUFFIX,google.com,NodeSelection
+    - DOMAIN-SUFFIX,googleusercontent.com,NodeSelection
+    - DOMAIN-SUFFIX,youtube.com,NodeSelection
+    - DOMAIN-SUFFIX,googleapis.com,NodeSelection
+    - DOMAIN-SUFFIX,googlevideo.com,NodeSelection
+    - DOMAIN-SUFFIX,google.cn,DIRECT
+    - DOMAIN-SUFFIX,steamcommunity.com,NodeSelection
+    - DOMAIN-SUFFIX,steampowered.com,NodeSelection
+    - DOMAIN,store.steampowered.com,NodeSelection
+    - DOMAIN,api.steampowered.com,NodeSelection
+    - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+    - DOMAIN-SUFFIX,steamserver.net,DIRECT
+    - DOMAIN-SUFFIX,steam-chat.com,DIRECT
+    - DOMAIN-SUFFIX,steamstat.us,DIRECT
+    - DOMAIN-KEYWORD,steamgames,DIRECT
+    - DOMAIN-SUFFIX,leetcode.com,NodeSelection
+    - DOMAIN-KEYWORD,deepwiki,NodeSelection
+    - DOMAIN-KEYWORD,visualstudio,NodeSelection
+    - DOMAIN-SUFFIX,huggingface.co,NodeSelection
+    - DOMAIN-SUFFIX,neovide.dev,NodeSelection
+    - DOMAIN-KEYWORD,vscode,NodeSelection
+    - DOMAIN-SUFFIX,githubcopilot.com,NodeSelection
+    - DOMAIN-KEYWORD,lazyvim,NodeSelection
+    - DOMAIN-KEYWORD,rust,NodeSelection
+    - DOMAIN-KEYWORD,jetbrains,NodeSelection
+    - DOMAIN-SUFFIX,langchain.com,NodeSelection
+    - DOMAIN-KEYWORD,ilovepdf,NodeSelection
+    - DOMAIN-KEYWORD,stackoverflow,NodeSelection
+    - DOMAIN-SUFFIX,stackexchange,NodeSelection
+    - DOMAIN-SUFFIX,stackapps,NodeSelection
+    - DOMAIN-SUFFIX,ycombinator.com,NodeSelection
+    - DOMAIN-SUFFIX,arxiv.org,NodeSelection
+    - DOMAIN-SUFFIX,codepen.io,NodeSelection
+    - DOMAIN-SUFFIX,cdnjs.com,NodeSelection
+    - DOMAIN-KEYWORD,jsdelivr,NodeSelection
+    - DOMAIN-SUFFIX,obsidian.md,NodeSelection
+    - DOMAIN-SUFFIX,kimi.com,DIRECT
+    - DOMAIN-SUFFIX,tailwindcss.com,NodeSelection
+    - DOMAIN-SUFFIX,cppreference.com,NodeSelection
+    - DOMAIN-SUFFIX,brew.sh,NodeSelection
+    - DOMAIN-SUFFIX,ghcr.io,NodeSelection
+    - DOMAIN-SUFFIX,pkg-containers.githubusercontent.com,NodeSelection
+    - DOMAIN-SUFFIX,github.com,NodeSelection
+    - DOMAIN-SUFFIX,github.io,NodeSelection
+    - DOMAIN-SUFFIX,githubusercontent.com,NodeSelection
+    - DOMAIN-SUFFIX,githubassets.com,NodeSelection
+    - DOMAIN-SUFFIX,npmjs.com,NodeSelection
+    - DOMAIN-SUFFIX,npmjs.org,NodeSelection
+    - DOMAIN-SUFFIX,yarnpkg.com,NodeSelection
+    - DOMAIN-SUFFIX,unpkg.com,NodeSelection
+    - DOMAIN-SUFFIX,jsdelivr.net,NodeSelection
+    - DOMAIN-SUFFIX,python.org,NodeSelection
+    - DOMAIN-SUFFIX,pypi.org,NodeSelection
+    - DOMAIN-SUFFIX,files.pythonhosted.org,NodeSelection
+    - DOMAIN-SUFFIX,golang.org,NodeSelection
+    - DOMAIN-SUFFIX,go.dev,NodeSelection
+    - DOMAIN-SUFFIX,rust-lang.org,NodeSelection
+    - DOMAIN-SUFFIX,crates.io,NodeSelection
+    - DOMAIN-SUFFIX,docker.com,NodeSelection
+    - DOMAIN-SUFFIX,docker.io,NodeSelection
+    - DOMAIN-SUFFIX,code.visualstudio.com,NodeSelection
+    - DOMAIN-SUFFIX,marketplace.visualstudio.com,NodeSelection
+    - DOMAIN-SUFFIX,visualstudio.com,NodeSelection
+    - DOMAIN-SUFFIX,visualstudio.microsoft.com,NodeSelection
+    - DOMAIN-SUFFIX,openai.com,OpenAI
+    - DOMAIN-SUFFIX,azure.com,NodeSelection
+    - DOMAIN-SUFFIX,azureedge.net,NodeSelection
+    - DOMAIN-SUFFIX,x.com,NodeSelection
+    - DOMAIN-SUFFIX,telegram.org,NodeSelection
+    - DOMAIN-KEYWORD,twitter,NodeSelection
+    - DOMAIN-KEYWORD,chatgpt,OpenAI
+    - DOMAIN-SUFFIX,reddit.com,NodeSelection
+    - DOMAIN-SUFFIX,discord.com,NodeSelection
+    - DOMAIN-SUFFIX,raindrop.io,NodeSelection
+    - DOMAIN-SUFFIX,twimg.com,NodeSelection
+    - DOMAIN-SUFFIX,exp-tas.com,NodeSelection
+    - DOMAIN-SUFFIX,matrix.to,NodeSelection
+    - DOMAIN-SUFFIX,matrix.org,NodeSelection
+    - DOMAIN-SUFFIX,bitwarden.com,NodeSelection
+    - DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT
+    - DOMAIN-SUFFIX,dc.services.visualstudio.com,REJECT
+    - DOMAIN-SUFFIX,gallerycdn.vsassets.io,NodeSelection
+    - DOMAIN-SUFFIX,vscode-unpkg.net,NodeSelection
+    - DOMAIN-SUFFIX,vscode.blob.core.windows.net,NodeSelection
+    - DOMAIN-SUFFIX,vscode.dev,NodeSelection
+    - DOMAIN-SUFFIX,vscode-sync.trafficmanager.net,NodeSelection
+    - DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com,NodeSelection
+    - DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com,NodeSelection
+    - DOMAIN-SUFFIX,api.github.com,NodeSelection
+    - DOMAIN-SUFFIX,login.microsoftonline.com,NodeSelection
+    - DOMAIN-SUFFIX,github.gallery.vsassets.io,NodeSelection
+    - DOMAIN-SUFFIX,services.helium.imput.net,NodeSelection
+    - DOMAIN-SUFFIX,api.zhongzhuan.chat,DIRECT
+    - DOMAIN-SUFFIX,zotero.org,NodeSelection
+    - DOMAIN-SUFFIX,outlook.office365.com,NodeSelection
+    - DOMAIN-KEYWORD,gmail,NodeSelection
+    - DOMAIN-SUFFIX,api3.wlai.vip,NodeSelection
+    - DOMAIN-SUFFIX,schemastore.org,NodeSelection
+    - DOMAIN-SUFFIX,wikipedia.org,NodeSelection
+    - DOMAIN-KEYWORD,raycast,NodeSelection
+    - DOMAIN-SUFFIX,oaiusercontent.com,OpenAI
+    - DOMAIN-SUFFIX,oaistatic.com,OpenAI
+    - GEOIP,CN,DIRECT
+    - MATCH,NodeSelection
+allow-lan: false
+external-controller: 127.0.0.1:9090
+find-process-mode: strict
+interface-name: en0
+ipv6: false
+log-level: info
+mode: rule
+port: 7890
+profile:
+    store-selected: true
+socks-port: 7891
+tcp-concurrent: true
+unified-delay: true

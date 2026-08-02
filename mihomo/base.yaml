@@ -1,0 +1,13 @@
+---
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: strict
+interface-name: en0
+profile:
+  store-selected: true

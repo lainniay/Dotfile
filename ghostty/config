@@ -17,8 +17,16 @@ clipboard-write = allow
 clipboard-read = allow
 
 adjust-cursor-thickness = 2
-macos-option-as-alt = true 
+macos-option-as-alt = false
 mouse-hide-while-typing = true
 
 window-inherit-working-directory = false
 notify-on-command-finish = unfocused
+
+keybind = cmd+backquote=goto_window:next
+keybind = cmd+shift+backquote=goto_window:previous
+
+macos-auto-secure-input = false
+macos-secure-input-indication = true
+
+scrollbar = never

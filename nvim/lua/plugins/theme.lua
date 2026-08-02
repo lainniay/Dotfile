@@ -5,10 +5,19 @@ return {
   opts = {
     flavour = "mocha",
     no_underline = true,
-    -- transparent_background = true,
     term_colors = true,
+
+    transparent_background = true,
+
     float = {
-      transparent = true, -- enable transparent floating windows
+      transparent = true,
+      solid = false,
+    },
+
+    integrations = {
+      snacks = {
+        enabled = true,
+      },
     },
 
     custom_highlights = function(colors)
@@ -17,13 +26,40 @@ return {
         DashboardIcon = { fg = colors.text },
         DashboardDesc = { fg = colors.text },
         DashboardKey = { fg = colors.text },
-        DashboardFooter = { fg = colors.overlay0, style = { "italic" } },
+        DashboardFooter = {
+          fg = colors.overlay0,
+          style = { "italic" },
+        },
 
-        FloatBorder = { fg = colors.maroon, style = { "bold" } },
         AlphaHeader = { fg = colors.pink },
         AlphaButtons = { fg = colors.blue },
         AlphaShortcut = { fg = colors.blue },
-        AlphaFooter = { fg = colors.overlay0, style = { "italic" } },
+        AlphaFooter = {
+          fg = colors.overlay0,
+          style = { "italic" },
+        },
+
+        Normal = { bg = colors.none },
+        NormalNC = { bg = colors.none },
+        NormalFloat = { bg = colors.none },
+
+        FloatBorder = {
+          fg = colors.overlay0,
+          bg = colors.none,
+          style = { "bold" },
+        },
+
+        SnacksPicker = { bg = colors.none },
+        SnacksPickerInput = { bg = colors.none },
+
+        SnacksPickerBorder = {
+          fg = colors.overlay0,
+          bg = colors.none,
+        },
+
+        SnacksPickerInputBorder = {
+          link = "SnacksPickerBorder",
+        },
       }
     end,
 

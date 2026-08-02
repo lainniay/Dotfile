@@ -38,6 +38,7 @@ gh/hosts.yml
 
 # --- App sessions, account state, private cache ---
 **/.omo/
+**/.semgrep/
 configstore/
 .copilot/
 github-copilot/
@@ -51,6 +52,9 @@ pi/agent/auth.json
 pi/agent/sessions/
 pi/agent/git/
 pi/agent/npm/
+pi/agent/cache/
+pi/agent/logs/
+pi/agent/tmp/
 
 # --- Package manager output ---
 node_modules/
@@ -85,14 +89,18 @@ lazygit/state.yml
 # --- Mole ---
 mole/*.log
 
+notier/
+
+pi/
+
 # --- Mihomo ---
-mihomo/config.yaml
 mihomo/launchd/
 mihomo/providers/
 mihomo/cache/
-mihomo/cache.db
+mihomo/*.db
 mihomo/logs/
 mihomo/*.metadb
+mihomo/subscribe.txt
 mihomo/subscription.url
 
 # --- Zsh ---

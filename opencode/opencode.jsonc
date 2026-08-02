@@ -1,26 +1,68 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "plugin": [
-    "oh-my-openagent@latest",
-    "@mohak34/opencode-notifier@latest",
-    "@tarquinen/opencode-dcp@latest",
-    "@dietrichgebert/ponytail"
+    "@dietrichgebert/ponytail",
+    "@slkiser/opencode-quota@latest",
+    "@mohak34/opencode-notifier@latest"
   ],
-  "provider": {
-    "myprovider": {
-      "npm": "@ai-sdk/openai-compatible",
-      "name": "lain",
-      "options": {
-        "baseURL": "https://yunwu.ai/v1"
-      },
-      "models": {
-        "gpt-5.5": {
-          "name": "GPT 5.5"
-        },
-        "gemini-3.1-pro-preview": {
-          "name": "Gemini 3.1 Pro"
-        }
+  "compaction": {
+    "auto": true,
+    "prune": true,
+    "reserved": 10000
+  },
+  "default_agent": "build",
+  "subagent_depth": 1,
+  "permission": {
+    "read": {
+      "*": "allow",
+      "*.env": "ask",
+      "*.env.*": "ask",
+      "*.env.example": "allow"
+    },
+    "edit": "allow",
+    "bash": {
+      "*": "ask",
+      "gh pr comment*": "ask",
+      "gh pr diff*": "allow",
+      "gh pr list*": "allow",
+      "gh pr view*": "allow",
+      "gh repo view*": "allow",
+      "git blame*": "allow",
+      "git cat-file*": "allow",
+      "git diff*": "allow",
+      "git log*": "allow",
+      "git merge-base*": "allow",
+      "git remote get-url*": "allow",
+      "git rev-parse*": "allow",
+      "git show*": "allow",
+      "git status*": "allow"
+    },
+    "external_directory": "ask",
+    "doom_loop": "ask",
+    "codegraph_*": "deny",
+    "context7_*": "deny"
+  },
+  "mcp": {
+    "codegraph": {
+      "type": "local",
+      "command": [
+        "codegraph",
+        "serve",
+        "--mcp"
+      ],
+      "enabled": true
+    },
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true,
+      "headers": {
+        "CONTEXT7_API_KEY": "{env:CONTEXT7_API_KEY}"
       }
     }
-  }
+  },
+  "enabled_providers": [
+    "openai",
+    "deepseek"
+  ],
 }

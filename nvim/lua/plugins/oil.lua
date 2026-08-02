@@ -13,6 +13,9 @@ return {
     },
     use_default_keymaps = false,
     float = {
+      max_width = 0.85,
+      max_height = 0.85,
+      border = "rounded",
       win_options = {
         winblend = 30,
       },

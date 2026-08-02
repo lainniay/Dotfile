@@ -1,0 +1,639 @@
+{
+  "version": 2,
+  "default_group": "NodeSelection",
+  "groups": [
+    {
+      "name": "NodeSelection",
+      "type": "select",
+      "selectable": true
+    },
+    {
+      "name": "OpenAI",
+      "type": "select",
+      "selectable": false,
+      "filter": "(?i)^(Japan|United States)"
+    }
+  ],
+  "rules": [
+    {
+      "match": "DOMAIN-KEYWORD,admarvel",
+      "policy": "REJECT"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,admaster",
+      "policy": "REJECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,umeng.com",
+      "policy": "REJECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,talkingdata.com",
+      "policy": "REJECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,mobile.events.data.microsoft.com",
+      "policy": "REJECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,ts.net",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,tailscale.com",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "IP-CIDR,100.64.0.0/10",
+      "policy": "DIRECT",
+      "options": [
+        "no-resolve"
+      ]
+    },
+    {
+      "match": "IP-CIDR,192.168.0.0/16",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "IP-CIDR,10.0.0.0/8",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "IP-CIDR,172.16.0.0/12",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "IP-CIDR,127.0.0.0/8",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,newapi",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,bilibili",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,api3.wlai",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,tencent",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,taobao.com",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,qq.com",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,12306.cn",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,alipay",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,apple.com",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,icloud.com",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,apple-cloudkit.com",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,apple.cn",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,cdn-apple.com",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,google.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,googleusercontent.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,youtube.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,googleapis.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,googlevideo.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,gstatic.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,google.com.hk",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,google.cn",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,steamcommunity.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,steampowered.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN,store.steampowered.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN,api.steampowered.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,steamcontent.com",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,steamserver.net",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,steam-chat.com",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,steamstat.us",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,steamgames",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,leetcode.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,deepwiki",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,visualstudio",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,huggingface.co",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,neovide.dev",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,vscode",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,githubcopilot.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,lazyvim",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,rust",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,jetbrains",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,langchain.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,ilovepdf",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,stackoverflow",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,stackexchange",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,stackapps",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,ycombinator.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,arxiv.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,codepen.io",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,cdnjs.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,jsdelivr",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,obsidian.md",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,context7.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,models.dev",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,mason-registry.dev",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,immersivetranslate.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,immersivetranslate.cn",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,helium.computer",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,darkreader.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,paperlib.app",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,iconify.design",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,unisvg.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,ocsp",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,kimi.com",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,tailwindcss.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,cppreference.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,brew.sh",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,ghcr.io",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,pkg-containers.githubusercontent.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,github.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,github.io",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,githubusercontent.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,githubassets.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,npmjs.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,npmjs.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,yarnpkg.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,unpkg.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,jsdelivr.net",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,python.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,pypi.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,files.pythonhosted.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,golang.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,go.dev",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,rust-lang.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,crates.io",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,docker.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,docker.io",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,code.visualstudio.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,marketplace.visualstudio.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,visualstudio.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,visualstudio.microsoft.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,openai.com",
+      "policy": "OpenAI"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,azure.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,azureedge.net",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,x.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "IP-CIDR,91.108.4.0/22",
+      "policy": "NodeSelection",
+      "options": [
+        "no-resolve"
+      ]
+    },
+    {
+      "match": "IP-CIDR,91.108.8.0/22",
+      "policy": "NodeSelection",
+      "options": [
+        "no-resolve"
+      ]
+    },
+    {
+      "match": "IP-CIDR,91.108.12.0/22",
+      "policy": "NodeSelection",
+      "options": [
+        "no-resolve"
+      ]
+    },
+    {
+      "match": "IP-CIDR,91.108.16.0/22",
+      "policy": "NodeSelection",
+      "options": [
+        "no-resolve"
+      ]
+    },
+    {
+      "match": "IP-CIDR,91.108.20.0/22",
+      "policy": "NodeSelection",
+      "options": [
+        "no-resolve"
+      ]
+    },
+    {
+      "match": "IP-CIDR,91.108.56.0/22",
+      "policy": "NodeSelection",
+      "options": [
+        "no-resolve"
+      ]
+    },
+    {
+      "match": "IP-CIDR,149.154.160.0/20",
+      "policy": "NodeSelection",
+      "options": [
+        "no-resolve"
+      ]
+    },
+    {
+      "match": "DOMAIN-SUFFIX,telegram.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,twitter",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,chatgpt",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,reddit.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,discord.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,raindrop.io",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,twimg.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,exp-tas.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,matrix.to",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,matrix.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,bitwarden.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,vortex.data.microsoft.com",
+      "policy": "REJECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,dc.services.visualstudio.com",
+      "policy": "REJECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,gallerycdn.vsassets.io",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,vscode-unpkg.net",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,vscode.blob.core.windows.net",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,vscode.dev",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,vscode-sync.trafficmanager.net",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,api.github.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,login.microsoftonline.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,github.gallery.vsassets.io",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,services.helium.imput.net",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,api.zhongzhuan.chat",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,zotero.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,outlook.office365.com",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,gmail",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,api3.wlai.vip",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,schemastore.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,wikipedia.org",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-KEYWORD,raycast",
+      "policy": "NodeSelection"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,oaiusercontent.com",
+      "policy": "OpenAI"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,oaistatic.com",
+      "policy": "OpenAI"
+    },
+    {
+      "match": "GEOIP,CN",
+      "policy": "DIRECT"
+    },
+    {
+      "match": "MATCH",
+      "policy": "NodeSelection"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "name": "mihomo",
+  "scope": "daemon",
+  "command": {
+    "executable": "/opt/homebrew/bin/mihomo",
+    "arguments": [
+      "-d",
+      "/Users/lainniay/.local/state/mihomo",
+      "-f",
+      "/Users/lainniay/.local/state/mihomo/config.yaml"
+    ]
+  },
+  "runAtLoad": true,
+  "restart": "always",
+  "stdout": "/Users/lainniay/.local/state/mihomo/logs/mihomo.log",
+  "stderr": "/Users/lainniay/.local/state/mihomo/logs/mihomo.err"
+}

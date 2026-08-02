@@ -1,9 +1,8 @@
 {
   "lightStyle": "minimal-light",
   "darkStyle": "minimal-dark-black",
-  "lightScheme": "minimal-notion-light",
+  "lightScheme": "minimal-things-light",
   "darkScheme": "minimal-dracula-dark",
-  "editorFont": "",
   "lineHeight": 1.5,
   "lineWidth": 45,
   "lineWidthWide": 50,
@@ -30,5 +29,6 @@
   "folding": true,
   "lineNumbers": false,
   "readableLineLength": false,
+  "editorFont": "",
   "devBlockWidth": false
 }

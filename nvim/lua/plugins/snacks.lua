@@ -1,19 +1,10 @@
+local winblend = 25
+
 return {
   "snacks.nvim",
+
+  ---@type snacks.Config
   opts = {
-    terminal = {
-      win = {
-        position = "float",
-      },
-      wo = {
-        winblend = 10,
-      },
-    },
-    float = {
-      wo = {
-        winblend = 30,
-      },
-    },
     picker = {
       icons = {
         diagnostics = {
@@ -23,35 +14,64 @@ return {
           Info = "I ",
         },
       },
-      wo = {
-        winblend = 30,
-      },
-    },
-    notification_history = {
+
       win = {
-        position = "float",
+        input = {
+          wo = {
+            winblend = winblend,
+          },
+        },
+
+        list = {
+          wo = {
+            winblend = winblend,
+          },
+        },
+
+        preview = {
+          wo = {
+            winblend = winblend,
+          },
+        },
+      },
+
+      layout = {
+        config = function(layout)
+          layout.layout.backdrop = false
+        end,
       },
     },
+
     styles = {
       float = {
         wo = {
-          winblend = 30,
+          winblend = winblend,
         },
       },
-      terminal = {
-        wo = { winblend = 30 },
-      },
+
       lazygit = {
-        wo = { winblend = 30 },
+        wo = {
+          winblend = winblend,
+        },
       },
+
       notification = {
-        wo = { winblend = 30 },
+        wo = {
+          winblend = winblend,
+        },
       },
+
       notification_history = {
-        wo = { winblend = 30 },
+        position = "float",
+        wo = {
+          winblend = winblend,
+        },
       },
+
       scratch = {
-        wo = { winblend = 30 },
+        wo = {
+          winblend = winblend,
+        },
       },
     },
   },
