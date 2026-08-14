@@ -1,0 +1,1327 @@
+{
+  "version": 1,
+  "scopes": [
+    {
+      "scopeId": "019ff733-b9c7-7a93-b6ec-7b4cc05a3b9b",
+      "revision": 87,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-12T18:19:50.107Z",
+          "updatedAt": "2026-08-12T18:19:50.107Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-12T18:19:50.107Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ff733-b9c7-7a93-b6ec-7b4cc05a3b9b"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ff733-ba16-7077-8086-5931044ca522",
+      "revision": 87,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-12T18:19:50.172Z",
+          "updatedAt": "2026-08-12T18:19:50.172Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-12T18:19:50.172Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ff733-ba16-7077-8086-5931044ca522"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ff734-c550-7c5e-8c17-3fc4f6480173",
+      "revision": 86,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-12T18:20:58.618Z",
+          "updatedAt": "2026-08-12T18:20:58.618Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-12T18:20:58.618Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ff734-c550-7c5e-8c17-3fc4f6480173"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ff734-c5ab-7c07-83c0-b686e64e016c",
+      "revision": 86,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-12T18:20:58.673Z",
+          "updatedAt": "2026-08-12T18:20:58.673Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-12T18:20:58.673Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ff734-c5ab-7c07-83c0-b686e64e016c"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ff73e-410e-7284-9efa-6476bb4a0745",
+      "revision": 61,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-12T18:31:20.115Z",
+          "updatedAt": "2026-08-12T18:31:20.115Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-12T18:31:20.115Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ff73e-410e-7284-9efa-6476bb4a0745"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ff73e-4163-7ca2-887c-adc91889cede",
+      "revision": 61,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-12T18:31:20.169Z",
+          "updatedAt": "2026-08-12T18:31:20.169Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-12T18:31:20.169Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ff73e-4163-7ca2-887c-adc91889cede"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ff742-dd84-7260-bbba-a0a8e8004ca7",
+      "revision": 52,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-12T18:36:22.324Z",
+          "updatedAt": "2026-08-12T18:36:22.324Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-12T18:36:22.324Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ff742-dd84-7260-bbba-a0a8e8004ca7"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ff742-ddd1-7e36-a191-a6054cd41a1f",
+      "revision": 52,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-12T18:36:22.358Z",
+          "updatedAt": "2026-08-12T18:36:22.358Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-12T18:36:22.358Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ff742-ddd1-7e36-a191-a6054cd41a1f"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ff853-0536-7df2-9f81-f81809e1c9c2",
+      "revision": 61,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-12T23:33:38.279Z",
+          "updatedAt": "2026-08-12T23:33:38.279Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-12T23:33:38.279Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ff853-0536-7df2-9f81-f81809e1c9c2"
+          }
+        },
+        {
+          "agentId": "agent-1",
+          "profileId": "planner",
+          "parentAgentId": "main",
+          "task": "Sleep for 2 minutes (120 seconds), then report done. Use bash: `sleep 120`.",
+          "lifecycle": "completed",
+          "model": "deepseek/deepseek-v4-flash",
+          "startedAt": "2026-08-12T23:34:12.907Z",
+          "updatedAt": "2026-08-12T23:36:15.734Z",
+          "progress": {
+            "revision": 6,
+            "turns": 2,
+            "maxTurns": 24,
+            "elapsedMs": 122830,
+            "updatedAt": "2026-08-12T23:36:15.734Z"
+          },
+          "canMessage": false,
+          "conversationAvailability": "readOnly",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": true
+          },
+          "runtime": {
+            "executionCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "originCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "model": "deepseek/deepseek-v4-flash",
+            "thinkingLevel": "high",
+            "conversationRevision": 1,
+            "latestSequence": 61,
+            "sessionId": "019ff853-8cce-7ece-a6ce-6dc6ca9663f0",
+            "sessionPath": "/Users/lainniay/.local/state/pi/sessions/2026-08-12T23-34-12-942Z_019ff853-8cce-7ece-a6ce-6dc6ca9663f0.jsonl",
+            "terminalState": "completed",
+            "readOnlyReason": "Agent lifecycle is completed",
+            "settledAt": "2026-08-12T23:36:15.734Z",
+            "result": {
+              "text": "{\"status\": \"completed\", \"summary\": \"Slept for 120 seconds as instructed, then reported done.\", \"evidence\": [\"bash sleep 120 completed with exit status 0\"], \"changedPaths\": [], \"blockers\": [], \"verification\": []}",
+              "agentId": "agent-1",
+              "profile": "planner",
+              "model": "deepseek/deepseek-v4-flash"
+            },
+            "terminalRevision": 13
+          }
+        },
+        {
+          "agentId": "agent-2",
+          "profileId": "schema-test",
+          "parentAgentId": "main",
+          "task": "Sleep for 2 minutes (120 seconds), then report done. Use bash: `sleep 120`.",
+          "lifecycle": "completed",
+          "model": "deepseek/deepseek-v4-flash",
+          "startedAt": "2026-08-12T23:34:12.910Z",
+          "updatedAt": "2026-08-12T23:38:18.578Z",
+          "progress": {
+            "revision": 6,
+            "turns": 2,
+            "maxTurns": 24,
+            "elapsedMs": 245669,
+            "updatedAt": "2026-08-12T23:38:18.578Z"
+          },
+          "canMessage": false,
+          "conversationAvailability": "readOnly",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": true
+          },
+          "runtime": {
+            "executionCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "originCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "model": "deepseek/deepseek-v4-flash",
+            "thinkingLevel": "high",
+            "conversationRevision": 1,
+            "latestSequence": 65,
+            "sessionId": "019ff855-6c8c-77a0-a1c3-7ab11fbee834",
+            "sessionPath": "/Users/lainniay/.local/state/pi/sessions/2026-08-12T23-36-15-756Z_019ff855-6c8c-77a0-a1c3-7ab11fbee834.jsonl",
+            "terminalState": "completed",
+            "readOnlyReason": "Agent lifecycle is completed",
+            "settledAt": "2026-08-12T23:38:18.578Z",
+            "result": {
+              "text": "Sleep task complete: slept for 120 seconds via `sleep 120`.",
+              "structured": {
+                "status": "completed",
+                "summary": "Slept for 120 seconds using `sleep 120` as assigned, then reported done.",
+                "evidence": [
+                  "bash `sleep 120` exited with status 0 after the full 2-minute duration"
+                ]
+              },
+              "agentId": "agent-2",
+              "profile": "schema-test",
+              "model": "deepseek/deepseek-v4-flash"
+            },
+            "terminalRevision": 19
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa2e-f08b-73a0-9377-9e13c63c940a",
+      "revision": 42,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:13:28.109Z",
+          "updatedAt": "2026-08-13T08:13:28.109Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:13:28.109Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa2e-f08b-73a0-9377-9e13c63c940a"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa2e-f0d5-7685-98d8-b3765bbd629b",
+      "revision": 42,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:13:28.154Z",
+          "updatedAt": "2026-08-13T08:13:28.154Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:13:28.154Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa2e-f0d5-7685-98d8-b3765bbd629b"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa3e-950c-7827-95a0-f77e48b7d18c",
+      "revision": 33,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:30:33.263Z",
+          "updatedAt": "2026-08-13T08:30:33.263Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:30:33.263Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa3e-950c-7827-95a0-f77e48b7d18c"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa3e-9558-7011-833e-5993a5f4028f",
+      "revision": 33,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:30:33.310Z",
+          "updatedAt": "2026-08-13T08:30:33.310Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:30:33.310Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa3e-9558-7011-833e-5993a5f4028f"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa3f-dff3-770d-a066-3ba33098fd66",
+      "revision": 32,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:31:57.975Z",
+          "updatedAt": "2026-08-13T08:31:57.975Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:31:57.975Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa3f-dff3-770d-a066-3ba33098fd66"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa3f-e03a-7ab6-8f6b-9cb9be79d2f1",
+      "revision": 32,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:31:58.015Z",
+          "updatedAt": "2026-08-13T08:31:58.015Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:31:58.015Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa3f-e03a-7ab6-8f6b-9cb9be79d2f1"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa40-82d8-7b1b-bd79-a59b116a0c98",
+      "revision": 31,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:32:39.686Z",
+          "updatedAt": "2026-08-13T08:32:39.686Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:32:39.686Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa40-82d8-7b1b-bd79-a59b116a0c98"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa40-832b-7bbc-870a-accd644c5d5d",
+      "revision": 31,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:32:39.730Z",
+          "updatedAt": "2026-08-13T08:32:39.730Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:32:39.730Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa40-832b-7bbc-870a-accd644c5d5d"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa44-b80d-7187-b434-055dcaa1aacc",
+      "revision": 37,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:37:15.474Z",
+          "updatedAt": "2026-08-13T08:37:15.474Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:37:15.474Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa44-b80d-7187-b434-055dcaa1aacc"
+          }
+        },
+        {
+          "agentId": "agent-1",
+          "profileId": "planner",
+          "parentAgentId": "main",
+          "task": "Create one nested planner agent to answer exactly GRANDCHILD_DONE without modifying files; wait for it, then answer exactly PARENT_ONE_DONE.",
+          "lifecycle": "cancelled",
+          "model": "deepseek/deepseek-v4-flash",
+          "startedAt": "2026-08-13T08:38:14.366Z",
+          "updatedAt": "2026-08-13T08:40:44.943Z",
+          "progress": {
+            "revision": 14,
+            "turns": 10,
+            "maxTurns": 24,
+            "elapsedMs": 150579,
+            "updatedAt": "2026-08-13T08:40:44.943Z"
+          },
+          "canMessage": false,
+          "conversationAvailability": "readOnly",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": true
+          },
+          "runtime": {
+            "executionCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "originCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "model": "deepseek/deepseek-v4-flash",
+            "thinkingLevel": "max",
+            "conversationRevision": 1,
+            "latestSequence": 1390,
+            "sessionId": "019ffa45-9e75-7d59-9fcd-12ae6a3eddd9",
+            "sessionPath": "/Users/lainniay/.local/state/pi/sessions/2026-08-13T08-38-14-389Z_019ffa45-9e75-7d59-9fcd-12ae6a3eddd9.jsonl",
+            "terminalState": "cancelled",
+            "readOnlyReason": "Agent lifecycle is cancelled",
+            "settledAt": "2026-08-13T08:40:44.943Z",
+            "error": "Subagent cancelled",
+            "terminalRevision": 22
+          }
+        },
+        {
+          "agentId": "agent-2",
+          "profileId": "schema-test",
+          "parentAgentId": "agent-1",
+          "task": "You are a nested subagent. Your only task: answer exactly GRANDCHILD_DONE without modifying any files. Do not read files, do not edit anything, do not spawn further agents. When complete, call submit_result exactly once as your only final tool call, with the text GRANDCHILD_DONE. Do not return a final result as plain text or JSON.",
+          "lifecycle": "cancelled",
+          "model": "deepseek/deepseek-v4-flash",
+          "startedAt": "2026-08-13T08:38:58.271Z",
+          "updatedAt": "2026-08-13T08:40:44.957Z",
+          "progress": {
+            "revision": 3,
+            "turns": 0,
+            "maxTurns": 24,
+            "elapsedMs": 106686,
+            "updatedAt": "2026-08-13T08:40:44.957Z"
+          },
+          "canMessage": false,
+          "conversationAvailability": "missing",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": true
+          },
+          "runtime": {
+            "executionCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "originCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "model": "deepseek/deepseek-v4-flash",
+            "thinkingLevel": "off",
+            "conversationRevision": 1,
+            "latestSequence": 0,
+            "terminalState": "cancelled",
+            "settledAt": "2026-08-13T08:40:44.957Z",
+            "error": "Subagent cancelled",
+            "terminalRevision": 24,
+            "readOnlyReason": "The Pi session file is missing or outside the configured session directory"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa49-987c-787c-84df-4cfa770ca9ae",
+      "revision": 13,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:42:35.056Z",
+          "updatedAt": "2026-08-13T08:42:35.056Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:42:35.056Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa49-987c-787c-84df-4cfa770ca9ae"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa4b-e886-78be-a2bb-26ce38ce0c09",
+      "revision": 4,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:45:06.620Z",
+          "updatedAt": "2026-08-13T08:45:06.620Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:45:06.620Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa4b-e886-78be-a2bb-26ce38ce0c09"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa4b-e8d8-7594-8379-a39d364e79e0",
+      "revision": 4,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:45:06.653Z",
+          "updatedAt": "2026-08-13T08:45:06.653Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:45:06.653Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa4b-e8d8-7594-8379-a39d364e79e0"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa4d-51c8-78b6-9a2b-15a9da001380",
+      "revision": 21,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:46:39.105Z",
+          "updatedAt": "2026-08-13T08:46:39.105Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:46:39.105Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa4d-51c8-78b6-9a2b-15a9da001380"
+          }
+        },
+        {
+          "agentId": "agent-1",
+          "profileId": "planner",
+          "parentAgentId": "main",
+          "task": "Run the shell command `sleep 120` (sleep for 2 minutes). Wait for it to complete, then report that the sleep finished.",
+          "lifecycle": "completed",
+          "model": "deepseek/deepseek-v4-flash",
+          "startedAt": "2026-08-13T08:48:04.453Z",
+          "updatedAt": "2026-08-13T08:50:08.073Z",
+          "progress": {
+            "revision": 6,
+            "turns": 2,
+            "maxTurns": 24,
+            "elapsedMs": 123621,
+            "updatedAt": "2026-08-13T08:50:08.073Z"
+          },
+          "canMessage": false,
+          "conversationAvailability": "readOnly",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": true
+          },
+          "runtime": {
+            "executionCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "originCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "model": "deepseek/deepseek-v4-flash",
+            "thinkingLevel": "high",
+            "conversationRevision": 1,
+            "latestSequence": 107,
+            "sessionId": "019ffa4e-9f80-7035-a5bc-4d785dca12e4",
+            "sessionPath": "/Users/lainniay/.local/state/pi/sessions/2026-08-13T08-48-04-480Z_019ffa4e-9f80-7035-a5bc-4d785dca12e4.jsonl",
+            "terminalState": "completed",
+            "readOnlyReason": "Agent lifecycle is completed",
+            "settledAt": "2026-08-13T08:50:08.073Z",
+            "result": {
+              "text": "{\"status\": \"completed\", \"summary\": \"Ran `sleep 120` and it completed successfully after 2 minutes\", \"evidence\": [\"bash: sleep 120 exited 0 with no output\"], \"changedPaths\": [], \"blockers\": [], \"verification\": [\"sleep 120 completed\"]}",
+              "agentId": "agent-1",
+              "profile": "planner",
+              "model": "deepseek/deepseek-v4-flash"
+            },
+            "terminalRevision": 13
+          }
+        },
+        {
+          "agentId": "agent-2",
+          "profileId": "schema-test",
+          "parentAgentId": "main",
+          "task": "Run the shell command `sleep 120` (sleep for 2 minutes). Wait for it to complete, then report that the sleep finished.",
+          "lifecycle": "completed",
+          "model": "deepseek/deepseek-v4-flash",
+          "startedAt": "2026-08-13T08:48:04.456Z",
+          "updatedAt": "2026-08-13T08:52:11.982Z",
+          "progress": {
+            "revision": 6,
+            "turns": 2,
+            "maxTurns": 24,
+            "elapsedMs": 247526,
+            "updatedAt": "2026-08-13T08:52:11.982Z"
+          },
+          "canMessage": false,
+          "conversationAvailability": "readOnly",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": true
+          },
+          "runtime": {
+            "executionCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "originCwd": "/Users/lainniay/Code/Rust/Nabla",
+            "model": "deepseek/deepseek-v4-flash",
+            "thinkingLevel": "high",
+            "conversationRevision": 1,
+            "latestSequence": 146,
+            "sessionId": "019ffa50-825d-7294-b49a-2cf6ab312773",
+            "sessionPath": "/Users/lainniay/.local/state/pi/sessions/2026-08-13T08-50-08-093Z_019ffa50-825d-7294-b49a-2cf6ab312773.jsonl",
+            "terminalState": "completed",
+            "readOnlyReason": "Agent lifecycle is completed",
+            "settledAt": "2026-08-13T08:52:11.982Z",
+            "result": {
+              "text": "The command `sleep 120` was executed and completed successfully after the full 2-minute duration. Exit code was 0 with no output (as expected for sleep).",
+              "structured": {
+                "status": "completed",
+                "summary": "Ran `sleep 120` via the bash tool with a 150s timeout. The command completed successfully with exit code 0 and no output, confirming the sleep finished as expected.",
+                "evidence": [
+                  "bash tool returned exit code 0 for `sleep 120` with empty stdout/stderr, indicating the 2-minute sleep completed without error."
+                ]
+              },
+              "agentId": "agent-2",
+              "profile": "schema-test",
+              "model": "deepseek/deepseek-v4-flash"
+            },
+            "terminalRevision": 19
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa56-3ff0-7896-b941-ec32209ebe15",
+      "revision": 3,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:56:24.330Z",
+          "updatedAt": "2026-08-13T08:56:24.330Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:56:24.330Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa56-3ff0-7896-b941-ec32209ebe15"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffa56-d281-7fd8-b456-79e0e1a2f6da",
+      "revision": 2,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T08:57:01.867Z",
+          "updatedAt": "2026-08-13T08:57:01.867Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T08:57:01.867Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffa56-d281-7fd8-b456-79e0e1a2f6da"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffac6-5bb4-76b7-bdc6-0c0535a95ed4",
+      "revision": 1,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T10:58:51.489Z",
+          "updatedAt": "2026-08-13T10:58:51.489Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T10:58:51.489Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffac6-5bb4-76b7-bdc6-0c0535a95ed4"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffbf2-fe84-75b0-aec2-1a5b846d234c",
+      "revision": 1,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T16:27:13.954Z",
+          "updatedAt": "2026-08-13T16:27:13.954Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T16:27:13.954Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffbf2-fe84-75b0-aec2-1a5b846d234c"
+          }
+        }
+      ]
+    },
+    {
+      "scopeId": "019ffbff-3504-7b0c-a021-7e9c2227083c",
+      "revision": 1,
+      "nodes": [
+        {
+          "agentId": "main",
+          "profileId": "main",
+          "parentAgentId": null,
+          "task": "Main conversation",
+          "lifecycle": "running",
+          "model": "deepseek/deepseek-v4-pro",
+          "startedAt": "2026-08-13T16:40:34.336Z",
+          "updatedAt": "2026-08-13T16:40:34.336Z",
+          "progress": {
+            "revision": 0,
+            "turns": 0,
+            "maxTurns": 0,
+            "elapsedMs": 0,
+            "updatedAt": "2026-08-13T16:40:34.336Z"
+          },
+          "canMessage": true,
+          "conversationAvailability": "available",
+          "integration": {
+            "backend": "shared",
+            "status": "none",
+            "warning": null,
+            "artifactId": null,
+            "changedPaths": [],
+            "patchBytes": 0,
+            "excludedPaths": [],
+            "resolverAvailable": false
+          },
+          "runtime": {
+            "sessionId": "019ffbff-3504-7b0c-a021-7e9c2227083c"
+          }
+        }
+      ]
+    }
+  ]
+}

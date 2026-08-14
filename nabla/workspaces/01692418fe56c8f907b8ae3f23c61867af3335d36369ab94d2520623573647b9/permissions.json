@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 3,
+  "identity": {
+    "canonicalRoot": "/Users/lainniay/Code/Rust/Nabla",
+    "generationId": "e1b9d2e752641965b42217e9562c2534a29af2ebe180976340e7031c06d8b3e0",
+    "gitCommonDirectory": "/Users/lainniay/Code/Rust/Nabla/.git",
+    "gitCommonDirectoryIdentity": "4fd200101e2a1f19d5c8c70bae495e2f23e2a56c84f7f4d460e463b36dedf828"
+  },
+  "grants": [
+    {
+      "workspaceId": "01692418fe56c8f907b8ae3f23c61867af3335d36369ab94d2520623573647b9",
+      "matchers": [
+        {
+          "kind": "exec",
+          "executable": "cargo",
+          "argv": [
+            "test",
+            "--lib"
+          ],
+          "cwd": "/Users/lainniay/Code/Rust/Nabla",
+          "environment": {}
+        },
+        {
+          "kind": "exec",
+          "executable": "tail",
+          "argv": [
+            "-4"
+          ],
+          "cwd": "/Users/lainniay/Code/Rust/Nabla",
+          "environment": {}
+        },
+        {
+          "kind": "exec",
+          "executable": "cargo",
+          "argv": [
+            "fmt",
+            "--all",
+            "--",
+            "--check"
+          ],
+          "cwd": "/Users/lainniay/Code/Rust/Nabla",
+          "environment": {}
+        },
+        {
+          "kind": "exec",
+          "executable": "echo",
+          "argv": [
+            "FMT_OK"
+          ],
+          "cwd": "/Users/lainniay/Code/Rust/Nabla",
+          "environment": {}
+        }
+      ],
+      "scope": "workspace",
+      "invalidationKeys": [
+        {
+          "kind": "workspace_generation",
+          "value": "e1b9d2e752641965b42217e9562c2534a29af2ebe180976340e7031c06d8b3e0"
+        },
+        {
+          "kind": "git_common_directory",
+          "path": "/Users/lainniay/Code/Rust/Nabla/.git",
+          "value": "4fd200101e2a1f19d5c8c70bae495e2f23e2a56c84f7f4d460e463b36dedf828"
+        },
+        {
+          "kind": "file_digest",
+          "path": "/Users/lainniay/Code/Rust/Nabla/Cargo.toml",
+          "value": "bff11f2b36c2772d419296235ff61cd9267373924a550d253ec8a46397b2624a"
+        },
+        {
+          "kind": "file_digest",
+          "path": "/Users/lainniay/Code/Rust/Nabla/Cargo.lock",
+          "value": "661ec946698f1bab72708a9cbe933aa09dbf272d8994fb1217d643ee087f3f57"
+        }
+      ]
+    }
+  ]
+}
