@@ -1,5 +1,6 @@
 return {
   "stevearc/oil.nvim",
+  lazy = false,
   opts = {
     default_file_explorer = true,
     delete_to_trash = true,
@@ -46,7 +47,7 @@ return {
   },
   dependencies = { { "nvim-mini/mini.icons", opts = {} } },
   keys = {
-    { "<leader>e", mode = { "n", "v" }, "<cmd>Oil --float<cr>", desc = "Open explorer" },
+    { "<leader>e", mode = { "n", "v" }, "<cmd>Oil --float<cr>", desc = "Oil (buffer directory)" },
+    { "<leader>E", mode = { "n", "v" }, "<cmd>Oil --float .<cr>", desc = "Oil (cwd)" },
   },
-  lazy = false,
 }

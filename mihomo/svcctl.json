@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "mihomo",
-  "scope": "daemon",
+  "scope": "user-agent",
   "command": {
     "executable": "/opt/homebrew/bin/mihomo",
     "arguments": [

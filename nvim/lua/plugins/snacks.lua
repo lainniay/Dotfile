@@ -3,8 +3,18 @@ local winblend = 25
 return {
   "snacks.nvim",
 
-  ---@type snacks.Config
+  keys = {
+    { "<leader>e", false },
+    { "<leader>E", false },
+    { "<leader>fe", false },
+    { "<leader>fE", false },
+  },
+
   opts = {
+    explorer = {
+      enabled = false,
+    },
+
     picker = {
       icons = {
         diagnostics = {
@@ -44,12 +54,6 @@ return {
 
     styles = {
       float = {
-        wo = {
-          winblend = winblend,
-        },
-      },
-
-      lazygit = {
         wo = {
           winblend = winblend,
         },

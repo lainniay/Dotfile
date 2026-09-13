@@ -1,13 +1,7 @@
 return {
   "nvim-lualine/lualine.nvim",
   opts = function(_, opts)
-    local lualine_require = require("lualine_require")
-    lualine_require.require = require
-
     local icons = LazyVim.config.icons
-
-    vim.o.laststatus = vim.g.lualine_laststatus
-
     local mocha = require("catppuccin.palettes").get_palette("mocha")
 
     local cat_mocha = {
@@ -85,24 +79,17 @@ return {
         },
         lualine_x = {
           Snacks.profiler.status(),
-          -- stylua: ignore
           {
-            function() return require("noice").api.status.mode.get() end,
-            cond = function() return package.loaded["noice"] and require("noice").api.status.mode.has() end,
-            color = function() return { fg = Snacks.util.color("Constant") } end,
+            function()
+              return require("noice").api.status.mode.get()
+            end,
+            cond = function()
+              return package.loaded["noice"] and require("noice").api.status.mode.has()
+            end,
+            color = function()
+              return { fg = Snacks.util.color("Constant") }
+            end,
           },
-          -- stylua: ignore
-          {
-            function() return "  " .. require("dap").status() end,
-            cond = function() return package.loaded["dap"] and require("dap").status() ~= "" end,
-            color = function() return { fg = Snacks.util.color("Debug") } end,
-          },
-          -- stylua: ignore
-          -- {
-          --   require("lazy.status").updates,
-          --   cond = require("lazy.status").has_updates,
-          --   color = function() return { fg = Snacks.util.color("Special") } end,
-          -- },
           {
             "diagnostics",
             symbols = {

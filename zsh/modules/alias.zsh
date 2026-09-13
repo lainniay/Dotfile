@@ -4,4 +4,3 @@ alias cl="clang++"
 
 alias th="trash"
 
-alias oc="opencode"

@@ -1,4 +1,17 @@
-img, .markdown-source-view.mod-cm6 .cm-content .image-embed { 
-    display: block; 
-    margin-inline: auto !important; 
+/* 笔记中的图片默认居中（阅读视图与实时预览） */
+:is(.markdown-rendered, .markdown-source-view.mod-cm6) {
+    /* 覆盖 Minimal 主题给外部图片设置的起始边距 */
+    --img-margin-start: auto;
+}
+
+:is(.markdown-rendered, .markdown-source-view.mod-cm6)
+    :is(.image-embed, img:not(.emoji):not(.link-favicon)) {
+    display: block;
+    float: none !important;
+    margin-inline: auto !important;
+}
+
+/* image-embed 可能占满整行，内部图片仍需单独居中 */
+:is(.markdown-rendered, .markdown-source-view.mod-cm6) .image-embed {
+    text-align: center;
 }

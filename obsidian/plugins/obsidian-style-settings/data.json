@@ -42,7 +42,7 @@
   "minimal-style@@image-radius": 0,
   "minimal-style@@active-line-on": true,
   "minimal-style@@metadata-heading-off": true,
-  "minimal-style@@sidebar-tabs-style": "sidebar-tabs-default",
+  "minimal-style@@sidebar-tabs-style": "sidebar-tabs-wide",
   "minimal-style@@sidebar-tabs-names": "tab-names-off",
   "minimal-style@@ribbon-style": "ribbon-hidden",
   "minimal-style@@row-alt": false,

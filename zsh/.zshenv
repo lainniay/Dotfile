@@ -6,6 +6,14 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_BIN_HOME="$HOME/.local/bin"
 
+# Zsh state and cache (keep out of the config dir)
+mkdir -p "$XDG_STATE_HOME/zsh" "$XDG_CACHE_HOME/zsh"
+HISTFILE="$XDG_STATE_HOME/zsh/history"
+
+# macOS Terminal hardcodes its per-session history dir to ~/.zsh_sessions;
+# disable it and rely on the single HISTFILE above.
+SHELL_SESSIONS_DISABLE=1
+
 # Environment variables
 
 export EDITOR=nvim
@@ -33,9 +41,6 @@ export NODE_REPL_HISTORY="$XDG_DATA_HOME/node_repl_history"
 
 # BUN
 export BUN_INSTALL="$XDG_DATA_HOME/bun"
-
-# Haskell
-export GHCUP_USE_XDG_DIRS=1
 
 # XMake 
 export XMAKE_GLOBALDIR="$XDG_CONFIG_HOME/xmake"

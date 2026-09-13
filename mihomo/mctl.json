@@ -1,17 +1,24 @@
 {
   "version": 2,
-  "default_group": "NodeSelection",
+  "default_group": "Pro",
   "groups": [
-    {
-      "name": "NodeSelection",
-      "type": "select",
-      "selectable": true
-    },
     {
       "name": "OpenAI",
       "type": "select",
       "selectable": false,
       "filter": "(?i)^(Japan|United States)"
+    },
+    {
+      "name": "Cloudflare",
+      "type": "select",
+      "selectable": true,
+      "filter": "(?i)^Cloudfare-"
+    },
+    {
+      "name": "Pro",
+      "type": "select",
+      "selectable": true,
+      "filter": "(?i)(-Pro$|-SS$|^Cloudfare-)"
     }
   ],
   "rules": [
@@ -120,31 +127,31 @@
     },
     {
       "match": "DOMAIN-SUFFIX,google.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,googleusercontent.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,youtube.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,googleapis.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,googlevideo.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,gstatic.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,google.com.hk",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,google.cn",
@@ -152,19 +159,19 @@
     },
     {
       "match": "DOMAIN-SUFFIX,steamcommunity.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,steampowered.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN,store.steampowered.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN,api.steampowered.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,steamcontent.com",
@@ -188,103 +195,103 @@
     },
     {
       "match": "DOMAIN-SUFFIX,leetcode.com",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-KEYWORD,deepwiki",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-KEYWORD,visualstudio",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,huggingface.co",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,neovide.dev",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-KEYWORD,vscode",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,githubcopilot.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-KEYWORD,lazyvim",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-KEYWORD,rust",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-KEYWORD,jetbrains",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,langchain.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-KEYWORD,ilovepdf",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-KEYWORD,stackoverflow",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-SUFFIX,stackexchange",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-SUFFIX,stackapps",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-SUFFIX,ycombinator.com",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-SUFFIX,arxiv.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,codepen.io",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,cdnjs.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-KEYWORD,jsdelivr",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,obsidian.md",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,context7.com",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-SUFFIX,models.dev",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-SUFFIX,mason-registry.dev",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,immersivetranslate.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,immersivetranslate.cn",
@@ -292,23 +299,23 @@
     },
     {
       "match": "DOMAIN-SUFFIX,helium.computer",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,darkreader.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,paperlib.app",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,iconify.design",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,unisvg.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-KEYWORD,ocsp",
@@ -320,220 +327,236 @@
     },
     {
       "match": "DOMAIN-SUFFIX,tailwindcss.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,cppreference.com",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-SUFFIX,brew.sh",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,ghcr.io",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,pkg-containers.githubusercontent.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,github.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,github.io",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,githubusercontent.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,githubassets.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,npmjs.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,npmjs.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,yarnpkg.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,unpkg.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,jsdelivr.net",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,python.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,pypi.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,files.pythonhosted.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,golang.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,go.dev",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,rust-lang.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,crates.io",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,docker.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,docker.io",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,code.visualstudio.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,marketplace.visualstudio.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,visualstudio.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,visualstudio.microsoft.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
+    },
+    {
+      "match": "DOMAIN,auth.openai.com",
+      "policy": "Pro"
+    },
+    {
+      "match": "DOMAIN,auth0.openai.com",
+      "policy": "Pro"
+    },
+    {
+      "match": "DOMAIN,chat.openai.com",
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,openai.com",
-      "policy": "OpenAI"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,azure.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,azureedge.net",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,x.com",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
+    },
+    {
+      "match": "DOMAIN-SUFFIX,t.co",
+      "policy": "Cloudflare"
     },
     {
       "match": "IP-CIDR,91.108.4.0/22",
-      "policy": "NodeSelection",
+      "policy": "Pro",
       "options": [
         "no-resolve"
       ]
     },
     {
       "match": "IP-CIDR,91.108.8.0/22",
-      "policy": "NodeSelection",
+      "policy": "Pro",
       "options": [
         "no-resolve"
       ]
     },
     {
       "match": "IP-CIDR,91.108.12.0/22",
-      "policy": "NodeSelection",
+      "policy": "Pro",
       "options": [
         "no-resolve"
       ]
     },
     {
       "match": "IP-CIDR,91.108.16.0/22",
-      "policy": "NodeSelection",
+      "policy": "Pro",
       "options": [
         "no-resolve"
       ]
     },
     {
       "match": "IP-CIDR,91.108.20.0/22",
-      "policy": "NodeSelection",
+      "policy": "Pro",
       "options": [
         "no-resolve"
       ]
     },
     {
       "match": "IP-CIDR,91.108.56.0/22",
-      "policy": "NodeSelection",
+      "policy": "Pro",
       "options": [
         "no-resolve"
       ]
     },
     {
       "match": "IP-CIDR,149.154.160.0/20",
-      "policy": "NodeSelection",
+      "policy": "Pro",
       "options": [
         "no-resolve"
       ]
     },
     {
       "match": "DOMAIN-SUFFIX,telegram.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-KEYWORD,twitter",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
-      "match": "DOMAIN-KEYWORD,chatgpt",
-      "policy": "NodeSelection"
+      "match": "DOMAIN-SUFFIX,chatgpt.com",
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,reddit.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,discord.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,raindrop.io",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,twimg.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,exp-tas.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,matrix.to",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,matrix.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,bitwarden.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,vortex.data.microsoft.com",
@@ -545,47 +568,47 @@
     },
     {
       "match": "DOMAIN-SUFFIX,gallerycdn.vsassets.io",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,vscode-unpkg.net",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,vscode.blob.core.windows.net",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,vscode.dev",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,vscode-sync.trafficmanager.net",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,api.github.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,login.microsoftonline.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,github.gallery.vsassets.io",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,services.helium.imput.net",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,api.zhongzhuan.chat",
@@ -593,39 +616,39 @@
     },
     {
       "match": "DOMAIN-SUFFIX,zotero.org",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,outlook.office365.com",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-KEYWORD,gmail",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,api3.wlai.vip",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,schemastore.org",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-SUFFIX,wikipedia.org",
-      "policy": "NodeSelection"
+      "policy": "Cloudflare"
     },
     {
       "match": "DOMAIN-KEYWORD,raycast",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,oaiusercontent.com",
-      "policy": "OpenAI"
+      "policy": "Pro"
     },
     {
       "match": "DOMAIN-SUFFIX,oaistatic.com",
-      "policy": "OpenAI"
+      "policy": "Pro"
     },
     {
       "match": "GEOIP,CN",
@@ -633,7 +656,7 @@
     },
     {
       "match": "MATCH",
-      "policy": "NodeSelection"
+      "policy": "Pro"
     }
   ]
 }

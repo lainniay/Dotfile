@@ -5,6 +5,8 @@
 for _, lhs in ipairs({
   "<leader>ft",
   "<leader>fT",
+  "<leader>gg",
+  "<leader>gG",
 }) do
   pcall(vim.keymap.del, "n", lhs)
 end

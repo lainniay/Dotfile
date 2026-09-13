@@ -1,1 +1,3 @@
 setopt NO_CLOBBER
+
+setopt EXTENDED_GLOB

@@ -14,23 +14,8 @@ return {
       solid = false,
     },
 
-    integrations = {
-      snacks = {
-        enabled = true,
-      },
-    },
-
     custom_highlights = function(colors)
       return {
-        DashboardHeader = { fg = colors.text },
-        DashboardIcon = { fg = colors.text },
-        DashboardDesc = { fg = colors.text },
-        DashboardKey = { fg = colors.text },
-        DashboardFooter = {
-          fg = colors.overlay0,
-          style = { "italic" },
-        },
-
         AlphaHeader = { fg = colors.pink },
         AlphaButtons = { fg = colors.blue },
         AlphaShortcut = { fg = colors.blue },

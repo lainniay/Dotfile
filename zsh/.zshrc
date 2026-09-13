@@ -1,3 +1,7 @@
+# Keep completion caches out of the config dir
+zstyle ':zim:completion' dumpfile "${XDG_CACHE_HOME}/zsh/zcompdump"
+zstyle ':completion::complete:*' cache-path "${XDG_CACHE_HOME}/zsh/zcompcache"
+
 source "$ZDOTDIR/modules/fzf.zsh"
 
 source "$ZDOTDIR/modules/zimfw.zsh"

@@ -10,10 +10,15 @@ function l() {
     --ignore-glob=".DS_Store|Google Drive"
   )
 
-  if [[ "$PWD" == "$HOME" ]]; then
-    command eza "${eza_args[@]}" "$@"
+  # With no target (or a directory target), keep the directory listing behavior.
+  if (( $# == 0 )) || [[ -d "$1" ]]; then
+    if [[ "$PWD" == "$HOME" ]]; then
+      command eza "${eza_args[@]}" "$@"
+    else
+      command eza -a "${eza_args[@]}" "$@"
+    fi
   else
-    command eza -a "${eza_args[@]}" "$@"
+    command bat "$@"
   fi
 }
 

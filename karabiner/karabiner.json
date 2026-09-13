@@ -1,10 +1,35 @@
 {
+    "global": { "show_in_menu_bar": false },
     "profiles": [
         {
             "complex_modifications": {
                 "rules": [
                     {
                         "description": "For Vim",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "file_paths": ["/Users/lainniay/.local/share/cargo/bin/neovide"],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "key_code": "left_control" }],
+                                "to_if_alone": [
+                                    { "key_code": "escape" },
+                                    { "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.UnicodeHexInput$" } }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "For vim with Ghostty",
+                        "enabled": false,
                         "manipulators": [
                             {
                                 "conditions": [

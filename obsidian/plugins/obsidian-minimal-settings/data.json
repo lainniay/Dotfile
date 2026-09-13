@@ -1,7 +1,7 @@
 {
   "lightStyle": "minimal-light",
   "darkStyle": "minimal-dark-black",
-  "lightScheme": "minimal-things-light",
+  "lightScheme": "minimal-macos-light",
   "darkScheme": "minimal-dracula-dark",
   "lineHeight": 1.5,
   "lineWidth": 45,
@@ -23,7 +23,7 @@
   "fullWidthMedia": false,
   "bordersToggle": true,
   "minimalStatus": true,
-  "focusMode": false,
+  "focusMode": true,
   "underlineInternal": false,
   "underlineExternal": false,
   "folding": true,
