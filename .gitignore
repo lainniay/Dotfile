@@ -106,7 +106,6 @@ mihomo/subscription.url
 # --- Zsh ---
 .zsh_history
 .zcomp*
-.zprofile
 zsh/modules/key.zsh
 zsh/completions/_*
 zsh/.zsh_sessions/
